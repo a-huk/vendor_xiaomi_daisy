@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link as="style" href="https://git.rip/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" rel="preload">
+<link as="style" href="https://git.rip/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" rel="preload">
+<link as="font" href="https://git.rip/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" rel="preload" type="font/woff2">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so Â· sunfish-user-11-RP1A.200720.011-6746289-release-keys Â· Android Dumps / Google / sunfish" property="og:title">
+<meta content="git.rip" property="og:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://git.rip/dumps/google/sunfish/-/blob/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so Â· sunfish-user-11-RP1A.200720.011-6746289-release-keys Â· Android Dumps / Google / sunfish" property="twitter:title">
+<meta content="git.rip" property="twitter:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so Â· sunfish-user-11-RP1A.200720.011-6746289-release-keys Â· Android Dumps / Google / sunfish Â· GitLab</title>
+<meta content="git.rip" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" />
+
+<link rel="stylesheet" media="all" href="/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" />
+
+<link rel="stylesheet" media="all" href="/assets/application_utilities-f636133344c99e44738666d9eecff2eb037c36ed05c5cbc2bfacc8dfad2bede2.css" />
+<link rel="stylesheet" media="all" href="/assets/themes/theme_dark-de1de60d7598a5915c968eb4399f97056b5517e5bef8223fbc6a85bbd3b6be69.css" />
+
+<link rel="stylesheet" media="all" href="/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://git.rip/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host=null;gon.webpack_public_path="/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.gitlab_url="https://git.rip";gon.revision="c050e8fb184";gon.gitlab_logo="/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg";gon.sprite_file_icons="/assets/file_icons-c13caf2f3ca00cc2c02b11d373ac288c200b9b4dcddbb52a5027dc07b3eece19.svg";gon.emoji_sprites_css_path="/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.select2_css_path="/assets/lazy_bundles/select2-759dcfb97af6f72891c016ccf7832e99b19296dbcc06185ea3ac23dd7d690c14.css";gon.test_env=false;gon.disable_animations=null;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=1;gon.ee=true;gon.features={"webperfExperiment":false,"snippetsBinaryBlob":false,"usageDataApi":true,"securityAutoFix":false,"startupCss":false,"suggestPipeline":true,"gitlabCiYmlPreview":false};
+//]]>
+</script>
+
+
+
+<script src="/assets/webpack/runtime.206056c6.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.447bfb48.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-globalSearch-pages.admin.abuse_reports-pages.admin.application_settings.ci_cd-pages.admin.gr-bcb9d7d0.e13f2c5e.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.show-pages.groups.wikis-pages.projects-f7a29bbf.98904b70.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-1386858e.29d837cc.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.index-pages.groups.epics.new-pages.groups.epics.show-pages.groups.iterati-85c41ccb.37c1e60d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blame.show-pages.projects.blob.edit-pages.projects.blob.new-pages.projects.bl-c6edf1dd.e3e2e206.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.shared.web_ide_link-pages.projects.show-pages.projec-cf300cc3.a895228a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.blob.show.267e246a.chunk.js" defer="defer"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="HCed5kKbvlYEj694aW6bomlENVyP9xnYpuNZdou9vQGBENslJSz1+r9VFTvE3mwkVERUmz8CKEbLy+M++PPLDA==" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+
+</head>
+
+<body class="ui-dark tab-width-8  gl-browser-generic gl-platform-other" data-find-file="/dumps/google/sunfish/-/find_file/sunfish-user-11-RP1A.200720.011-6746289-release-keys" data-group="google" data-namespace-id="590" data-page="projects:blob:show" data-page-type-id="sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" data-project="sunfish" data-project-id="4864">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Dashboard" id="logo" href="/"><img class="brand-header-logo lazy" data-src="/uploads/-/system/appearance/header_logo/1/Group_25.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump toâ€¦" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump toâ€¦" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select" data-testid="dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+<svg class="s16 search-icon" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" value="590" class="js-search-group-options" data-group-path="google" data-name="Google" data-issues-path="/groups/dumps/google/-/issues" data-mr-path="/groups/dumps/google/-/merge_requests" />
+<input type="hidden" name="project_id" id="search_project_id" value="4864" class="js-search-project-options" data-project-path="sunfish" data-name="sunfish" data-issues-path="/dumps/google/sunfish/-/issues" data-mr-path="/dumps/google/sunfish/-/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="snippets" id="snippets" value="false" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="sunfish-user-11-RP1A.200720.011-6746289-release-keys" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" />
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="4864" data-autocomplete-project-ref="sunfish-user-11-RP1A.200720.011-6746289-release-keys"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=4864"><svg class="s16" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#question"></use></svg>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-event="click_forum" data-track-property="question_menu" href="https://forum.gitlab.com/">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden class="text-secondary float-right">?</span>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+
+</li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="sunfish" href="/dumps/google/sunfish"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg7">S</div>
+</div>
+<div class="sidebar-context-title">
+sunfish
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/dumps/google/sunfish"><div class="nav-icon-container">
+<svg class="s16" data-testid="home-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/dumps/google/sunfish"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/dumps/google/sunfish/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/dumps/google/sunfish/-/releases"><span>Releases</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" data-qa-selector="repository_link" href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys"><div class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/dumps/google/sunfish/-/commits/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Commits
+</a></li><li class=""><a data-qa-selector="branches_link" id="js-onboarding-branches-link" href="/dumps/google/sunfish/-/branches">Branches
+</a></li><li class=""><a data-qa-selector="tags_link" href="/dumps/google/sunfish/-/tags">Tags
+</a></li><li class=""><a href="/dumps/google/sunfish/-/graphs/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Contributors
+</a></li><li class=""><a href="/dumps/google/sunfish/-/network/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Graph
+</a></li><li class=""><a href="/dumps/google/sunfish/-/compare?from=sunfish-user-11-RQ1A.210105.002-6985033-release-keys&amp;to=sunfish-user-11-RP1A.200720.011-6746289-release-keys">Compare
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/dumps/google/sunfish/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/dumps/google/sunfish/-/issues"><div class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/dumps/google/sunfish/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/dumps/google/sunfish/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/dumps/google/sunfish/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/dumps/google/sunfish/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/dumps/google/sunfish/-/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Iterations" href="/dumps/google/sunfish/-/iterations"><span>
+Iterations
+</span>
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/dumps/google/sunfish/-/merge_requests"><div class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="qa-project-requirements-link" href="/dumps/google/sunfish/-/requirements_management/requirements"><div class="nav-icon-container">
+<svg class="s16" data-testid="requirements-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#requirements"></use></svg>
+</div>
+<span class="nav-item-name">
+Requirements
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/requirements_management/requirements"><strong class="fly-out-top-item-name">Requirements</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="home"><a title="List" href="/dumps/google/sunfish/-/requirements_management/requirements"><span>List</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/dumps/google/sunfish/-/pipelines"><div class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/dumps/google/sunfish/-/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/dumps/google/sunfish/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/dumps/google/sunfish/-/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/dumps/google/sunfish/-/dependencies"><div class="nav-icon-container">
+<svg class="s16" data-testid="shield-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/dependencies"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/dumps/google/sunfish/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/dumps/google/sunfish/-/licenses"><span>License Compliance</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations" data-qa-selector="operations_link" href="/dumps/google/sunfish/-/environments/metrics"><div class="nav-icon-container">
+<svg class="s16" data-testid="cloud-gear-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+
+<li class=""><a title="Incidents" data-qa-selector="operations_incidents_link" href="/dumps/google/sunfish/-/incidents"><span>
+Incidents
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/dumps/google/sunfish/-/environments"><span>
+Environments
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/dumps/google/sunfish/-/packages"><div class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages &amp; Registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/packages"><strong class="fly-out-top-item-name">
+Packages &amp; Registries
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Package Registry" href="/dumps/google/sunfish/-/packages"><span>Package Registry</span>
+</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/dumps/google/sunfish/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/dumps/google/sunfish/-/value_stream_analytics"><div class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/dumps/google/sunfish/-/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/dumps/google/sunfish/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/dumps/google/sunfish/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issue" href="/dumps/google/sunfish/-/analytics/issues_analytics"><span>Issue</span>
+</a></li><li class=""><a class="shortcuts-repository-charts" title="Repository" href="/dumps/google/sunfish/-/graphs/sunfish-user-11-RP1A.200720.011-6746289-release-keys/charts"><span>Repository</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/dumps/google/sunfish/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/dumps/google/sunfish/-/wikis/home"><div class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-snippets" data-qa-selector="snippets_link" href="/dumps/google/sunfish/-/snippets"><div class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="qa-members-link" id="js-onboarding-members-link" href="/dumps/google/sunfish/-/project_members"><div class="nav-icon-container">
+<svg class="s16" data-testid="users-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/google/sunfish/-/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li>
+<a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s16 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-left"></use></svg>
+<svg class="s16 icon-chevron-double-lg-right" data-testid="chevron-double-lg-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/dumps/google/sunfish/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/dumps/google/sunfish/-/network/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Graph
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/dumps/google/sunfish/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/dumps/google/sunfish/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/dumps/google/sunfish/-/commits/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/dumps/google/sunfish/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+<div class="broadcast-message alert-warning broadcast-banner-message  js-broadcast-notification-3 gl-display-flex" dir="auto" style="background-color: #A295D6; color: #ffffff">
+<div class="gl-flex-grow-1 gl-text-right gl-pr-3">
+<svg class="s16 vertical-align-text-top" data-testid="bullhorn-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#bullhorn"></use></svg>
+</div>
+<div class="container-limited">
+<p>and though bugs are the bane of my existence, rest assured the wretched thing will get the best of care here</p>
+</div>
+<div class="gl-flex-grow-1 gl-flex-basis-0 gl-text-right">
+<button aria-label="Close" class="js-dismiss-current-broadcast-notification btn btn-link gl-button" data-expire-date="2025-12-23T23:02:00Z" data-id="3" type="button">
+<svg class="s16 gl-icon gl-mx-3! gl-text-white" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<svg class="s16" data-testid="hamburger-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#hamburger"></use></svg>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps"><img class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/562/dumpyara.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Android Dumps</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li><li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps/google">Google</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li> <li><a href="/dumps/google/sunfish"><span class="breadcrumb-item-text js-breadcrumb-item-text">sunfish</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/dumps/google/sunfish/-/blob/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so">Repository</a></h2>
+</li>
+</ul>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Android Dumps","item":"https://git.rip/dumps"},{"@type":"ListItem","position":2,"name":"Google","item":"https://git.rip/dumps/google"},{"@type":"ListItem","position":3,"name":"sunfish","item":"https://git.rip/dumps/google/sunfish"},{"@type":"ListItem","position":4,"name":"Repository","item":"https://git.rip/dumps/google/sunfish/-/blob/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so"}]}
+
+</script>
+
+</div>
+</nav>
+
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="js-signature-container" data-signatures-path="/dumps/google/sunfish/-/commits/56689a6303001dc07a0529d0df5744d88c20e461/signatures?limit=1"></div>
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/dumps/google/sunfish/-/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="sunfish-user-11-RP1A.200720.011-6746289-release-keys" data-ref="sunfish-user-11-RP1A.200720.011-6746289-release-keys" data-refs-url="/dumps/google/sunfish/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">sunfish-user-11-RP1A.200720.011-6746289-release-keys</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field qa-dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys">sunfish
+</a></li>
+<li class="breadcrumb-item">
+<a href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor">vendor</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/google/sunfish/-/tree/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib">lib</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/google/sunfish/-/blob/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so"><strong>vendor.qti.hardware.bt_channel_avoida...</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-children-ml-sm-3"><a class="gl-button btn shortcuts-find-file" rel="nofollow" href="/dumps/google/sunfish/-/find_file/sunfish-user-11-RP1A.200720.011-6746289-release-keys">Find file
+</a><a class="gl-button btn" href="/dumps/google/sunfish/-/commits/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so">History</a><a class="gl-button btn js-data-file-blob-permalink-url" href="/dumps/google/sunfish/-/blob/56689a6303001dc07a0529d0df5744d88c20e461/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so">Permalink</a></div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-56689a63">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/dumper"><img alt="dumper&#39;s avatar" src="/uploads/-/system/user/avatar/457/dumper.jpg?width=40" class="avatar s40 d-none d-sm-inline-block" title="dumper" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content" data-qa-selector="commit_content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/dumps/google/sunfish/-/commit/56689a6303001dc07a0529d0df5744d88c20e461">sunfish-user 11 RP1A.200720.011 6746289 release-keys</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+56689a63
+</span>
+<button class="text-expander js-toggle-button">
+<svg class="s12" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+</button>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="457" href="/dumper">dumper</a> authored <time class="js-timeago" title="Sep 8, 2020 5:24pm" datetime="2020-09-08T17:24:52Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Sep 08, 2020</time>
+</div>
+
+<pre class="commit-row-description gl-mb-3 js-toggle-content">Signed-off-by: <span data-trailer="Signed-off-by:" data-user="457"><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip"><img alt="dumper's avatar" src="https://git.rip/uploads/-/system/user/avatar/457/dumper.jpg?width=16" class="avatar s16 avatar-inline" title="dumper"></a><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip">dumper</a> &lt;<a href="mailto:457-dumper@users.noreply.git.rip" title="457-dumper@users.noreply.git.rip">457-dumper@users.noreply.git.rip</a>&gt;</span></pre>
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/dumps/google/sunfish/-/commit/56689a6303001dc07a0529d0df5744d88c20e461/pipelines?ref=sunfish-user-11-RP1A.200720.011-6746289-release-keys"></div>
+<div class="commit-sha-group btn-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+56689a63
+</div>
+<button class="btn gl-button btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA" data-class="gl-button btn btn-default" data-clipboard-text="56689a6303001dc07a0529d0df5744d88c20e461" type="button" title="Copy commit SHA" aria-label="Copy commit SHA"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+<strong class="file-title-name gl-word-break-all" data-qa-selector="file_name_content">
+vendor.qti.hardware.bt_channel_avoidance@1.0.so
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path" data-clipboard-text="{&quot;text&quot;:&quot;vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so&quot;,&quot;gfm&quot;:&quot;`vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so`&quot;}" type="button" title="Copy file path" aria-label="Copy file path"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+<small class="mr-1">
+52 KB
+</small>
+</div>
+
+<div class="file-actions gl-display-flex gl-flex-fill-1 gl-align-self-start gl-md-justify-content-end"><a class="btn btn-primary ide-edit-button gl-mr-3 btn-inverted btn-sm" data-track-event="click_edit_ide" data-track-label="Web IDE" data-track-property="secondary" href="/-/ide/project/dumps/google/sunfish/edit/sunfish-user-11-RP1A.200720.011-6746289-release-keys/-/vendor/lib/vendor.qti.hardware.bt_channel_avoidance%401.0.so">Web IDE</a><div class="btn-group ml-2" role="group">
+
+
+</div><div class="btn-group ml-2" role="group">
+
+
+<a download="vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" aria-label="Download" title="Download" data-container="body" href="/dumps/google/sunfish/-/raw/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so?inline=false"><svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg></a>
+
+</div></div>
+</div>
+
+<script id="js-file-lock" type="application/json">
+{"path":"vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so","toggle_path":"/dumps/google/sunfish/path_locks/toggle"}
+</script>
+
+
+<div data-blob-data="ELF          (    Ðz  4   Ì    4   
+ (      4   4   4   @  @                       Íj  Íj           Ðj  Ðz  Ðz  €F  €F           P±  PÑ  PÑ  ô
+  ô
+           D¼  Dì  Dì                 H¹  HÙ  HÙ            RåtdP±  PÑ  PÑ  ô
+  °        Qåtd                              t  t  t  8   8           p0`  0`  0`  h  h                 Android             GNU ÚÖÁ¥q0°ª”Óâû|                              ›             ¹             Þ                          3             ‘             è             c             Â             6             Ÿ             Ù                          ;             £             
+             Œ             ´             Ü                          o                          ­             c                          ¶             2              ®              Ð              þ              %!             N!             }!             •!             ­!             Ý!             &quot;             &#39;&quot;             L&quot;             q&quot;             ¡&quot;             Ø&quot;             #             R#             x#             ž#             Ä#             ì#             S$             y$             Ÿ$             É$             ÿ$             )%             i%             µ%             ã%             4&amp;             }&amp;             ¿&amp;             =&#39;             m&#39;             ¢&#39;             Â&#39;             â&#39;             (             A(             u(             –(             Â(             ï(             )             1)             y)             ª)             ×)             *             +             1+             d+             ¯+             &amp;,             Y,             §,             Á-             õ-             ).             ¥.             D/             i/             Ã/             0             I0             Œ0             ½0             1             N1             ¥1             È1             ë1             #2             H2             l2             2             ²2             ã2             3             G3             ˆ3             À3             ð3             /4             o4             ?5             V5             o5             ûD             +E             [E             ˆE             µE             ãE             F             :F             cF             ŽF             ¹F             YG             ˜G             ÝG             äG             ëG             ñG             ÷G             
+H             H             -H             3H             EH             UH             mH             tH             {H             ‚H             À  Iƒ       
+  UŒ  ˆ     ª  ñˆ  R     ½A  Ò  @     ë    Ð     ´  ]€       X  Ù”  œ     ô4  ­  &gt;  &quot;  I  „  `     6    ˆ     ®6  ¯´  Æ   &quot;  :  ±  Æ   &quot;  E@   Ö  L       á€  ä     *  q€  d     A  =‘  È      e  $     –=  ÀÖ  p     Û?  4Õ  x     ‚  ¡ž  À     Ç  ñŽ  $     ´@  lÖ  T     ˆ
+  ˜  ü     È  “  Ô    ñF  —‰  X     Ã  iœ       Ç  ‰ƒ  Œ     ±  —  ø     à&gt;  ¬Õ  t     &gt;C  ­–  ,     MD  Ù–  ,       ˜  |     v  ý—         %Œ  .     s&gt;  0×  p     VB  üÒ  ˆ   !  º  …–  (     ^  eƒ  &quot;     
+  ‰™  $    ý  ñ‰  „    è8  Ó¬  ¼   &quot;  B  „Ó  x     èC  C‰  T     !  —‚       §  ‰  h    A&lt;  —¶  Ê   &quot;  Â&lt;  Ô  t     ý   «‚  &quot;     .	  Õ›  ”     £    $     k  u‹  &amp;     Ø,  uœ  ¸  &quot;  ƒ5  •¯  ¼   &quot;  Ì7  uµ  r   &quot;  );  ×±  r   &quot;  .=  Ø  x   !  $A  üÓ       ¢B  \Ò  €     “C  =–  $     ¤D  a–  $     e   -ž       ‰  á‚  h     ž	  ­š  (    Ë  ÝŒ  ˆ     &amp;  U†  8    	  –        oA  ÜÒ        v  Á  |    ±  ‡  d       Dì       ·4  I²  f  &quot;  Œ  9ž  h     e  Í‚         ‹  ˆ     /*  u„  à  &quot;  &gt;   ×  l     O?  €Ô  ´     ðB  TÑ  È                                                                                                                                                                                                                                        ‰H         c    ‘H         ’          á !¨ƒ    A&quot;    1 ¡   $ „!€	 €  0AUBB€À&quot;#Ä   @@  €‚         ‰‰  P  € 	    @  @      ˜     „2 *0²   ’   ”   –   š   Ÿ   ¥   ¨   «   ±   ¶   ·   ½   Á   É   Î   Ó   Õ   ×   Ù   ÚÿúÆ×¦ ^Ž‰ÄÜÕß3´PRÁ2FÙ“¶@@B—9$šp©8P.Ïp×ìšèV˜Ù•ÊÒ!@ÈTíém.Ôè–:55l«Dq 5‚j#6&gt;¤qy×s8‡´²D®ŒèWú¡A,ðãö”Ü†W–êC¤áaÅ`o ­LË¬¬ârAt×}04§BV}58@B¾iÜ6ö:Ø/Rfýä&lt;PA1U±GøÀ/4´3ê@Ô
+ƒê€€²rtÓ€qØèt ±¢cƒÓÌ‡¥5 *“xèµtãpêçØÓ¹—’²PŸÔ|áH o ¿±LËjD§ä¬†NÈ´¤ ÔÃì¡¹¾%v&lt;@B“JÛ&#39; Ùl%¡„†êï±tUq3èÀ®râ9í8öÔØLLpv!b{:8É~:. __cxa_finalize _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance10descriptorE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance10getServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance11linkToDeathERKN7android2spINS5_8hardware20hidl_death_recipientEEEy _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance12getDebugInfoENSt3__18functionIFvRKN7android4hidl4base4V1_09DebugInfoEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance12getHashChainENSt3__18functionIFvRKN7android8hardware8hidl_vecINS8_10hidl_arrayIhLj32EJEEEEEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance13tryGetServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance13unlinkToDeathERKN7android2spINS5_8hardware20hidl_death_recipientEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance14interfaceChainENSt3__18functionIFvRKN7android8hardware8hidl_vecINS8_11hidl_stringEEEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance17registerAsServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance19interfaceDescriptorENSt3__18functionIFvRKN7android8hardware11hidl_stringEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance21notifySyspropsChangedEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance21setHALInstrumentationEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance24registerForNotificationsERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKN7android2spINSE_4hidl7manager4V1_020IServiceNotificationEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance4pingEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance5debugERKN7android8hardware11hidl_handleERKNS6_8hidl_vecINS6_11hidl_stringEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance8castFromERKN7android2spINS5_4hidl4base4V1_05IBaseEEEb _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidance8castFromERKN7android2spIS4_EEb _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_020BsBTChannelAvoidance13addOnewayTaskENSt3__18functionIFvvEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_020BsBTChannelAvoidanceC1EN7android2spINS3_19IBTChannelAvoidanceEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_020BsBTChannelAvoidanceC2EN7android2spINS3_19IBTChannelAvoidanceEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidance10onTransactEjRKN7android8hardware6ParcelEPS7_jNSt3__18functionIFvRS7_EEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidance12getDebugInfoENSt3__18functionIFvRKN7android4hidl4base4V1_09DebugInfoEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidance31_hidl_setBluetoothChannelStatusEPN7android4hidl4base4V1_08BnHwBaseERKNS5_8hardware6ParcelEPSC_NSt3__18functionIFvRSC_EEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidance4pingEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceC1ERKN7android2spINS3_19IBTChannelAvoidanceEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceC2ERKN7android2spINS3_19IBTChannelAvoidanceEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD0Ev _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD1Ev _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD2Ev _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance11linkToDeathERKN7android2spINS5_8hardware20hidl_death_recipientEEEy _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance12getDebugInfoENSt3__18functionIFvRKN7android4hidl4base4V1_09DebugInfoEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance12getHashChainENSt3__18functionIFvRKN7android8hardware8hidl_vecINS8_10hidl_arrayIhLj32EJEEEEEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance13unlinkToDeathERKN7android2spINS5_8hardware20hidl_death_recipientEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance14interfaceChainENSt3__18functionIFvRKN7android8hardware8hidl_vecINS8_11hidl_stringEEEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance15onLastStrongRefEPKv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance19interfaceDescriptorENSt3__18functionIFvRKN7android8hardware11hidl_stringEEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance21notifySyspropsChangedEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance21setHALInstrumentationEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance25setBluetoothChannelStatusERKN7android8hardware10hidl_arrayIhLj10EJEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance31_hidl_setBluetoothChannelStatusEPN7android8hardware10IInterfaceEPNS6_7details16HidlInstrumentorERKNS6_10hidl_arrayIhLj10EJEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance4pingEv _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance5debugERKN7android8hardware11hidl_handleERKNS6_8hidl_vecINS6_11hidl_stringEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceC1ERKN7android2spINS5_8hardware7IBinderEEE _ZN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceC2ERKN7android2spINS5_8hardware7IBinderEEE _ZN7android14sp_report_raceEv _ZN7android21report_sysprop_changeEv _ZN7android23sp_report_stack_pointerEv _ZN7android4hidl4base4V1_05IBase10descriptorE _ZN7android4hidl4base4V1_05IBase11linkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEEy _ZN7android4hidl4base4V1_05IBase12getDebugInfoENSt3__18functionIFvRKNS2_9DebugInfoEEEE _ZN7android4hidl4base4V1_05IBase12getHashChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_10hidl_arrayIhLj32EJEEEEEEEE _ZN7android4hidl4base4V1_05IBase13unlinkToDeathERKNS_2spINS_8hardware20hidl_death_recipientEEE _ZN7android4hidl4base4V1_05IBase14interfaceChainENSt3__18functionIFvRKNS_8hardware8hidl_vecINS6_11hidl_stringEEEEEE _ZN7android4hidl4base4V1_05IBase19interfaceDescriptorENSt3__18functionIFvRKNS_8hardware11hidl_stringEEEE _ZN7android4hidl4base4V1_05IBase21notifySyspropsChangedEv _ZN7android4hidl4base4V1_05IBase21setHALInstrumentationEv _ZN7android4hidl4base4V1_05IBase4pingEv _ZN7android4hidl4base4V1_05IBase5debugERKNS_8hardware11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE _ZN7android4hidl4base4V1_08BnHwBase10onTransactEjRKNS_8hardware6ParcelEPS5_jNSt3__18functionIFvRS5_EEE _ZN7android4hidl4base4V1_08BnHwBaseC2ERKNS_2spINS2_5IBaseEEERKNSt3__112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEESH_ _ZN7android4hidl4base4V1_08BnHwBaseD0Ev _ZN7android4hidl4base4V1_08BnHwBaseD1Ev _ZN7android4hidl4base4V1_08BnHwBaseD2Ev _ZN7android4hidl4base4V1_08BpHwBase10_hidl_pingEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorE _ZN7android4hidl4base4V1_08BpHwBase11_hidl_debugEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorERKNS4_11hidl_handleERKNS4_8hidl_vecINS4_11hidl_stringEEE _ZN7android4hidl4base4V1_08BpHwBase18_hidl_getDebugInfoEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorENSt3__18functionIFvRKNS2_9DebugInfoEEEE _ZN7android4hidl4base4V1_08BpHwBase18_hidl_getHashChainEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorENSt3__18functionIFvRKNS4_8hidl_vecINS4_10hidl_arrayIhLj32EJEEEEEEEE _ZN7android4hidl4base4V1_08BpHwBase20_hidl_interfaceChainEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorENSt3__18functionIFvRKNS4_8hidl_vecINS4_11hidl_stringEEEEEE _ZN7android4hidl4base4V1_08BpHwBase25_hidl_interfaceDescriptorEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorENSt3__18functionIFvRKNS4_11hidl_stringEEEE _ZN7android4hidl4base4V1_08BpHwBase27_hidl_notifySyspropsChangedEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorE _ZN7android4hidl4base4V1_08BpHwBase27_hidl_setHALInstrumentationEPNS_8hardware10IInterfaceEPNS4_7details16HidlInstrumentorE _ZN7android7RefBase10onFirstRefEv _ZN7android7RefBase12weakref_type7decWeakEPKv _ZN7android7RefBase13onLastWeakRefEPKv _ZN7android7RefBase15onLastStrongRefEPKv _ZN7android7RefBase20onIncStrongAttemptedEjPKv _ZN7android7RefBaseC2Ev _ZN7android7RefBaseD2Ev _ZN7android8hardware10IInterface8asBinderEPKS1_ _ZN7android8hardware10IInterfaceC2Ev _ZN7android8hardware10IInterfaceD0Ev _ZN7android8hardware10IInterfaceD1Ev _ZN7android8hardware10IInterfaceD2Ev _ZN7android8hardware11BpHwRefBase10onFirstRefEv _ZN7android8hardware11BpHwRefBase15onLastStrongRefEPKv _ZN7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv _ZN7android8hardware11BpHwRefBaseC2ERKNS_2spINS0_7IBinderEEE _ZN7android8hardware11BpHwRefBaseD0Ev _ZN7android8hardware11BpHwRefBaseD1Ev _ZN7android8hardware11BpHwRefBaseD2Ev _ZN7android8hardware11hidl_stringC1EPKc _ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE _ZN7android8hardware11hidl_stringC1Ev _ZN7android8hardware11hidl_stringD1Ev _ZN7android8hardware11hidl_stringaSERKS1_ _ZN7android8hardware12ProcessState15startThreadPoolEv _ZN7android8hardware12ProcessState4selfEv _ZN7android8hardware13writeToParcelERKNS0_6StatusEPNS0_6ParcelE _ZN7android8hardware16getRequestingSidERKNS_2spINS_4hidl4base4V1_05IBaseEEE _ZN7android8hardware21defaultServiceManagerEv _ZN7android8hardware21getMinSchedulerPolicyERKNS_2spINS_4hidl4base4V1_05IBaseEEE _ZN7android8hardware23getOrCreateCachedBinderEPNS_4hidl4base4V1_05IBaseE _ZN7android8hardware27hidl_binder_death_recipient12getRecipientEv _ZN7android8hardware27hidl_binder_death_recipientC1ERKNS_2spINS0_20hidl_death_recipientEEEyRKNS2_INS_4hidl4base4V1_05IBaseEEE _ZN7android8hardware6Parcel11writeBufferEPKvjPj _ZN7android8hardware6Parcel19writeInterfaceTokenEPKc _ZN7android8hardware6ParcelC1Ev _ZN7android8hardware6ParcelD1Ev _ZN7android8hardware6Status14setFromStatusTEi _ZN7android8hardware6Status17fromExceptionCodeEi _ZN7android8hardware6Status17fromExceptionCodeEiPKc _ZN7android8hardware6Status2okEv _ZN7android8hardware7IBinder11localBinderEv _ZN7android8hardware7IBinder12remoteBinderEv _ZN7android8hardware7IBinderD0Ev _ZN7android8hardware7IBinderD1Ev _ZN7android8hardware7details10TaskRunner4pushERKNSt3__18functionIFvvEEE _ZN7android8hardware7details10TaskRunner5startEj _ZN7android8hardware7details10TaskRunnerC1Ev _ZN7android8hardware7details10TaskRunnerD1Ev _ZN7android8hardware7details10debuggableEv _ZN7android8hardware7details13castInterfaceIN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidanceENS_4hidl4base4V1_05IBaseENS7_22BpHwBTChannelAvoidanceEEENS0_6ReturnINS_2spIT_EEEENSF_IT0_EEPKcb _ZN7android8hardware7details13return_statusD2Ev _ZN7android8hardware7details13return_statusaSEOS2_ _ZN7android8hardware7details16HidlInstrumentor24configureInstrumentationEb _ZN7android8hardware7details16HidlInstrumentorC2ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_ _ZN7android8hardware7details16HidlInstrumentorD2Ev _ZN7android8hardware7details16canCastInterfaceEPNS_4hidl4base4V1_05IBaseEPKcb _ZN7android8hardware7details16getPidIfSharableEv _ZN7android8hardware7details18getServiceInternalIN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceENS7_19IBTChannelAvoidanceEvvEENS_2spIT0_EERKNSt3__112basic_stringIcNSD_11char_traitsIcEENSD_9allocatorIcEEEEbb _ZN7android8hardware7details19getBnConstructorMapEv _ZN7android8hardware7details19getBsConstructorMapEv _ZN7android8hardware7details21getRawServiceInternalERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_bb _ZN7android8hardware7details25registerAsServiceInternalERKNS_2spINS_4hidl4base4V1_05IBaseEEERKNSt3__112basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEE _ZN7android8hardware7details6gBnMapE _ZN7android8hardware9BHwBinder10onTransactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE _ZN7android8hardware9BHwBinder11linkToDeathERKNS_2spINS0_7IBinder14DeathRecipientEEEPvj _ZN7android8hardware9BHwBinder11localBinderEv _ZN7android8hardware9BHwBinder12attachObjectEPKvPvS4_PFvS3_S4_S4_E _ZN7android8hardware9BHwBinder12detachObjectEPKv _ZN7android8hardware9BHwBinder13unlinkToDeathERKNS_2wpINS0_7IBinder14DeathRecipientEEEPvjPS5_ _ZN7android8hardware9BHwBinder16setRequestingSidEb _ZN7android8hardware9BHwBinder8transactEjRKNS0_6ParcelEPS2_jNSt3__18functionIFvRS2_EEE _ZN7android8hardware9BHwBinderD0Ev _ZN7android8hardware9BHwBinderD1Ev _ZNK7android4hidl4base4V1_08BnHwBase13checkSubclassEPKv _ZNK7android7RefBase10createWeakEPKv _ZNK7android7RefBase11getWeakRefsEv _ZNK7android7RefBase9decStrongEPKv _ZNK7android7RefBase9incStrongEPKv _ZNK7android8hardware6Parcel10readBufferEjPjPPKv _ZNK7android8hardware6Parcel16enforceInterfaceEPKc _ZNK7android8hardware7IBinder13checkSubclassEPKv _ZNK7android8hardware7details13return_status16onValueRetrievalEv _ZNK7android8hardware7details13return_status8assertOkEv _ZNK7android8hardware9BHwBinder10findObjectEPKv _ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv _ZNKSt3__121__basic_string_commonILb1EE20__throw_length_errorEv _ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ _ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_ _ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_ _ZNSt3__15mutex4lockEv _ZNSt3__15mutex6unlockEv _ZNSt3__15mutexD1Ev _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE12__find_equalIS7_EERPNS_16__tree_node_baseISG_EERPNS_15__tree_end_nodeIST_EERKT_ _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE4findIS7_EENS_15__tree_iteratorISJ_PNS_11__tree_nodeISJ_SG_EEiEERKT_ _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_4hidl4base4V1_05IBaseEEEPvEEEEENS_19__map_value_compareIS7_SJ_NS_4lessIS7_EELb1EEENS5_ISJ_EEE5eraseENS_21__tree_const_iteratorISJ_PNS_11__tree_nodeISJ_SG_EEiEE _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE12__find_equalIS7_EERPNS_16__tree_node_baseISE_EERPNS_15__tree_end_nodeISR_EERKT_ _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE4findIS7_EENS_15__tree_iteratorISH_PNS_11__tree_nodeISH_SE_EEiEERKT_ _ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFN7android2spINS9_8hardware7IBinderEEEPvEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE5eraseENS_21__tree_const_iteratorISH_PNS_11__tree_nodeISH_SE_EEiEE _ZNSt3__16vectorIN7android2spINS1_8hardware27hidl_binder_death_recipientEEENS_9allocatorIS5_EEE21__push_back_slow_pathIS5_EEvOT_ _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidanceE0_N7android4hidl4base4V1_05IBaseE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_020BsBTChannelAvoidanceE0_NS3_19IBTChannelAvoidanceE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceE0_N7android4hidl4base4V1_08BnHwBaseE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceE0_N7android8hardware7IBinderE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceE0_N7android8hardware9BHwBinderE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE0_N7android4hidl4base4V1_05IBaseE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE0_N7android8hardware11BpInterfaceINS3_19IBTChannelAvoidanceEEE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE0_NS3_19IBTChannelAvoidanceE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE4_N7android8hardware10IInterfaceE _ZTCN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE8_N7android8hardware11BpHwRefBaseE _ZTTN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidanceE _ZTTN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceE _ZTTN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE _ZTVN6vendor3qti8hardware20bt_channel_avoidance4V1_019IBTChannelAvoidanceE _ZTVN6vendor3qti8hardware20bt_channel_avoidance4V1_020BsBTChannelAvoidanceE _ZTVN6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceE _ZTVN6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidanceE _ZThn20_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD0Ev _ZThn20_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD1Ev _ZThn8_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance15onLastStrongRefEPKv _ZTv0_n12_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD0Ev _ZTv0_n12_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BnHwBTChannelAvoidanceD1Ev _ZTv0_n12_N7android4hidl4base4V1_08BnHwBaseD0Ev _ZTv0_n12_N7android4hidl4base4V1_08BnHwBaseD1Ev _ZTv0_n12_N7android8hardware10IInterfaceD0Ev _ZTv0_n12_N7android8hardware10IInterfaceD1Ev _ZTv0_n12_N7android8hardware11BpHwRefBaseD0Ev _ZTv0_n12_N7android8hardware11BpHwRefBaseD1Ev _ZTv0_n12_N7android8hardware7IBinderD0Ev _ZTv0_n12_N7android8hardware7IBinderD1Ev _ZTv0_n12_N7android8hardware9BHwBinderD0Ev _ZTv0_n12_N7android8hardware9BHwBinderD1Ev _ZTv0_n16_N7android8hardware11BpHwRefBase10onFirstRefEv _ZTv0_n20_N6vendor3qti8hardware20bt_channel_avoidance4V1_022BpHwBTChannelAvoidance15onLastStrongRefEPKv _ZTv0_n20_N7android8hardware11BpHwRefBase15onLastStrongRefEPKv _ZTv0_n24_N7android8hardware11BpHwRefBase20onIncStrongAttemptedEjPKv _ZdaPv _ZdlPv _Znaj _Znwj __cxa_pure_virtual __stack_chk_fail __stack_chk_guard abort atrace_begin_body atrace_end_body atrace_get_enabled_tags memcmp strlen memcpy memset libc.so LIBC libhidlbase.so liblog.so libutils.so libcutils.so libc++.so libm.so libdl.so vendor.qti.hardware.bt_channel_avoidance@1.0.so  APS2÷ ‚:Ì¥¨ø „¬ô Ì Äð ì ø ‚&gt;¤sÀ¨ø „´ø ô Ì Ô ð ð ì ø ‚À Ðt¨ø „¬ô Ì Äð ì ø ‚Â Üt¨ø „¬ô Ì Äð ì ø ‚Ò Ðr¨Œ‚Ö Ôv¨Œ‚Ž€xäð ð ‚¸ uäð ‚ºÄväð ‚¼ väð ‚¾´väð ‚Àœväð ‚Ä¤väð ‚ÞÀväð ‚€¼u˜Œ‚„äv˜Œ‚ŽŒzü´Àøˆ‚¤èvü´Ø‚¬Øvü´Ø‚®üvü´Ø‚¾€wü´Ø‚Àôvü´Ø‚î”wü´Ø‚úävü´Ø‚‚üvü´Ø‚ž€wü´Ø‚´ôvü´Ø‚¼ìs$‚¾P4è  Œ~‚¶‚æ‚¦‚¢‚Ä‚ü‚Ì‚¶‚†‚ª‚ˆ‚¨4‚øÀ ‚Ô‚È‚Ü‚Ü‚È‚¼‚¼‚Î‚Î4‚Ê‚¦‚ì‚Ð‚˜‚Þ ‚š‚à‚–‚Æ‚è‚º‚º‚è‚Æ‚–„‚ö‚€‚€‚ö‚‚‚‚‚‚‚‚‚‚¸‚Ô 0‚‚”‚‚‚‚‚‚‚‚‚‚Ì ‚Î ‚Ì $‚ò‚ð ‚Ü ‚Ú ‚Ô $‚ö‚ô‚‚$‚Ê‚&amp;‚$‚  ‚î‚ì,‚Ø‚È‚Æ‚¶ ‚þ‚ü,‚Ø‚Œ‚’‚ ‚ú‚øà•’•®•
+•¾•È•ª•¼•–•¨•´•ê•’ PÑ  €…caÀ  Ó  ÿ?	À A €Å1`0Á   Ø  `àŸ?þù?  Dì     °°°€¬  °¯€  °¯€ì  °®€&lt;  °®€   °°°€   °ª€x   °ª€T!  °­ €&quot;  °°°€`&quot;  t  À&quot;  °°¨€Ô&quot;  °°°€ð&quot;  „€t#  °ª€Ì#  ®B—€¤%  °«€Ô&amp;  °¬€0(  °°¬€()  8  ¤*  °„€Ä*  °­€D+  °¨€l+  °­€t,  °„€,  ¯B—€ð-  °„€.  °­€Œ.  °„€¨.  °¯€0  °­€°3  °«€D4  °°¬€ä4  °°¨€ 5  °„€&lt;5  °°¨€\5  °„€€5  °°¨€¤5  °¬€”6  °°°€ 6  œ  7  °®€8  °¬€L:  °«€Ø:  °„€Ü:  ¯B—€Œ&lt;  °„€&lt;  «B—€ð&lt;  °¯€¨=  °°°€¤=  °°¨€¾=  °°°€Ä=  °°¨€Ö=  °°°€Ü=  °°®€€&gt;  °„€†&gt;  °°°€„&gt;  °„€Œ&gt;  °°°€Š&gt;  °„€’&gt;  °°°€&gt;  °„€˜&gt;  °°°€œ&gt;  °„€¬&gt;  è  œ?  ì  x@  Ø  hA  Ð  XB  °°¨€pB  Ø  „C  Ü  XD  à  LE  ä  $F  Ð  0G  °°ª€ØG  Ø  ÔH  °„€I  °°ª€,J  °„€*J  °¯ €ÞJ  °°¨€L  °°°€L  °„€ L  °°°€,L  ¬B—€¼L  °¯ €pM  °„€€M  °°°€ˆM  ¬B—€N  °­ €ÖN  °„€@O  °°«€žQ  °­ €\R  °„€ÆR  °­ €nS  °°¬€0T  °°¨€DT  °°°€PT  °„€tT  °°¨€ÄT  °„€ðT  °°°€&quot;U  °°¨€&lt;U  „€xU  °°¨€ÈU  °„€4V  „€tV     ŒV     ”Ú    ˜Ú  V  œÚ     Ú  †  ¤Ú  „  ¨Ú  W  ¬Ú  ˆ  °Ú  q  ´Ú  s  ¸Ú  º  ¼Ú  ™  ÀÚ  t  ÄÚ  Æ  ÈÚ    ÌÚ  È  ÐÚ  œ  ÔÚ  Ç  ØÚ  0  ÜÚ  3  àÚ  ƒ  äÚ  …  èÚ    ìÚ  i  ðÚ  h  ôÚ  Ü  øÚ  T  üÚ  r   Û  m  Û  ;  Û  Ö  Û    Û  O  Û  %  Û  ,  Û  R   Û  &quot;  $Û  *  (Û    ,Û  @  0Û  ?  4Û  &gt;  8Û  $  &lt;Û  B  @Û  A  DÛ  ‹  HÛ  Œ  LÛ  ¹  PÛ    TÛ    XÛ    \Û    `Û    dÛ  6  hÛ  5  lÛ  =  pÛ  ¿  tÛ    xÛ    |Û    €Û  &lt;  „Û  g  ˆÛ    ŒÛ  f  Û    ”Û    ˜Û  :  œÛ  8   Û  a  ¤Û    ¨Û  Ø  ¬Û  ˜  °Û  #  ´Û  k  ¸Û  j  ¼Û  n  ÀÛ  E  ÄÛ  7  ÈÛ  U  ÌÛ  N  ÐÛ  ­  ÔÛ  C  ØÛ    ÜÛ  L  àÛ  K  äÛ  J  èÛ  D  ìÛ  Å  ðÛ  X  ôÛ  Y  øÛ  9  üÛ  1   Ü  u  Ü  S  Ü  /  Ü  (  Ü  P  Ü  Q  Ü  Â  Ü  M   Ü  Š  $Ü  Ž  (Ü  ©  ,Ü  Ð  0Ü  2  4Ü  4  8Ü  p  &lt;Ü    @Ü  ‘  É°°ª    É5°°®    É°°¬    É°°®    É°°®    É°¯     É°°¬    É°­     É°°¬    É°­     HIDL::IBTChannelAvoidance::linkToDeath::passthrough Passthrough oneway function queue exceeds maximum size. HIDL::IBTChannelAvoidance::debug::passthrough HIDL::IBTChannelAvoidance::getDebugInfo::passthrough HIDL::IBTChannelAvoidance::unlinkToDeath::passthrough HIDL::IBTChannelAvoidance::ping::passthrough HIDL::IBTChannelAvoidance::setBluetoothChannelStatus::client HIDL::IBTChannelAvoidance::interfaceDescriptor::passthrough HIDL::IBTChannelAvoidance::notifySyspropsChanged::passthrough HIDL::IBTChannelAvoidance::setBluetoothChannelStatus::server vendor.qti.hardware.bt_channel_avoidance@1.0::IBTChannelAvoidance HIDL::IBTChannelAvoidance::getHashChain::passthrough HIDL::IBTChannelAvoidance::interfaceChain::passthrough HIDL::IBTChannelAvoidance::setBluetoothChannelStatus::passthrough   IBTChannelAvoidance     vendor.qti.hardware.bt_channel_avoidance@1.0    HxDð¢¿zV  pGÿ÷ý¿ÔÔ-éðO°XHXIxDyDhÑø °0hðÐïÛø @F  Íé  FðÎïñ€ð•€F(–Òh ø ¨Ge¹àñ  ð0FðÀïFÍéPp8F!F*FðTï?Hñ
+ñ !xDyU0HFAFRFÍø(  ðsø
+˜‚EÐ(±hIiàh	iˆGø ÀÐ˜ðœïð¢ïÛø pF  Íé 8Fð€ïñGÒF(Òh ñø e¹àñ  ð FðtïFÍéP`0F9F*FðïH !qURFxDÍø( 0©HF ð¡ø
+˜‚EÐ (œ¿h¿Ii¿ˆGàh	iˆGœø ÀÐ˜ðNï˜!hÑ°½èððVï¨ðZïf_  h_   ]  °\  -éðOƒ°F7HFFxDÐø  Úø  HFðJïOð 	ñÍø°©8F*FðHïh&gt;»F8 ðïÕí F¨h™Æø0°Åé »Åø°°aÆé »±`Æí&amp;`8h h (¿8`¿!h¿1FÙø ð*ïÙø 0Éø 0kñ Æø0°…BÐ(±hIiàh	iˆGØø 0±€EÐ0c  Èø 	à  0cà5cØø hÊh)FGHFðï˜Úø Ñ°½èððÖîê]  -éðOƒ°F7HFFxDÐø  Úø  HFðÔîOð 	ñÍø°©8F*Fðêîh&gt;»F8 ðœîÕí F¨h™Æø0°Åé »Åø°°aÆé »±`Æí&amp;`8h h (¿8`¿!h¿1FÙø ð´îÙø 0Éø 0kñ Æø0°…BÐ(±hIiàh	iˆGØø 0±€EÐ0c  Èø 	à  0cà5cØø hÊh)FGHFð’î˜Úø Ñ°½èðð`îþ\  -éðG„°RHRIxDyDÐø Ñø  Ùø  ð&amp;îÚø €F  Íé  @Fð$îñ€ð‡€F(Òp ø  hFGf¹àñ  ð(FðîFÍé`h 8FAF2Fð¬í  ¸U Fð0î&amp;mF)F0FðRîFñ ˆBÐ0FðRî Fð8îø  ÀÐ˜ðøíðþíÚø €F  Íé  @FðÜíñ?ÒF(Òx 5ø  g¹àñ  ð0FðÒíFÍépp (FAF:Fðfí  èU Fðêí%iF(FðîFñ ˆBÐ(Fðî Fðòíø  ÀÐ˜ð´í˜Ùø Ñ°½èð‡ðºíhFð¾í\  \  -éðGŽ°F.H/IFxDñyDÐø  hÚø  h@F’ðöí(HñxD hh0FðìíÀïP hFAF&quot;@ùÏ
+ðû8i¨³hŠiiFGø  (¿ ˜¿ (ÐPø ñ	9± ñxðÒí=úÑHFðÖí %0F •ðÈí@FðÆíÀïP  ÄøPDù€
+%`˜Úø Ñ°½èð‡ðTíð?þ ¿ºZ  ¸Z   Z   !ÀïP &quot;Àø@ù‚
+`pGpµ†°FHIFxDyDhh2hhhF’ðˆí(iÀ±hmFŠi)FG(Fð†í  ÀïP !Äø Dù
+ `˜1hÑ°p½ðíðþ ¿ØY  ÚY  ÔÔÔÔÔÔÔÔÔÔÔÔpµ–°F6H%¡FxDaùï
+&#39;¡h* aùï*,¡`ùïJ0haùïj©ñ0 
+F@ù
+ñ @ù*  Bù JhFBùj&quot; ðJø(ið±hŠiiFGø  (¿ ˜¿ (Ðð8í  ÀïP !Äø Dù
+ `˜1hÑ°p½ðÀìð«ý ¿ ¿ ¿ ¿ ¿#ï$óÍiW“$¸;ÊL ÞMb±ñçÅr|Ðþ•èBÞ8³è#VŠœ((²Gì×žÐ-ú…¼I”&amp;­®&gt;¾hY  -éðC°F  Äø	 ‘FÄé  ˆFÄø ¤ø às { (¿ h¿ (Ððæì)ðx@OêI¹ë  Äø¿ 5F (¿Oðÿ5(FðÜì)FFðøë &#39;`¹ñ  s/Ð@F¹ñ`ù
+`ù*8F@ù
+@ù*&quot;Ðñ  ¹ñ`ù
+ñ0 `ù*ñ0 @ù*ñ  @ù
+Ð@ !hë bù
+D 0bù*†BAù
+Aù*ðÑ F°½èðƒ !ÀïP &quot;Àø@ù‚
+`pG !ÀïP OðFÀøhCùŒ
+ *`¿&quot;BupG !ÀïP &quot;Àø@ù‚
+`pGpµ-í‹ˆ°FH€ïP€iFxD &amp;h(h ùÀŠi`!‘Oðÿ1Íéf ‘˜±hŠiiFG Äø`ù€Š&amp;`˜)hÑ°½ì‹p½ðÚëðÅü ¿bW  µFðHì  ÀïP !Äø Dù
+ `½ !ÀïP OðFÀøhCùŒ
+ *`¿&quot;BupGÔÔ°µ‚°F HxDh(hh (³hQøDiFð&quot;ì !ÀïP  ˜&quot;#FÄøCù‚
+Dø`Ð±hQøD!Fðì ˜ˆ±hQøDiFðì	à  ÀïP !Äø  aDù
+ `˜)hÑ°°½ðrë ¿ÄV  pµ‚°FHFxDh0hh 0±hQøDiFðÜëJiF(F#FzDðäë ˜0±hQøDiFðÔë˜1hÑ°p½ðDë ¿6V  Påÿÿ-éðG¯°‚FtHFxDÐø Ùø  	hÁ³ñ ÀïP  FDFDùÀ
+   `@Fð¸ë˜!!p³ . ð°€ÝéÍé¨ ññ(Fð®ëÝéÊé 
+ñ )Fð¤ëø  !ÊøÀŠø ð€˜ðèê˜à  ÀïP !Êø Êø Jù
+Êø  Žà¨ðŽëø5  (xÐ(hh	hˆG (BÐ\ ðÂê)h­F(Fð„ë0F)Fðˆë‡ê  %–µë?Ñð†ë0hPø©0Dð@ëÀïP ˜!RFÊøPBù
+Jø`x±hQøDQFð,ë˜0±hQøD©ð*ë˜ (AÐhQøD©,à.h –f³‡ê  %µë?ÑðNë0hiFPø0DðëÀïP  ˜!RFÊøPBù
+Jø`à±hQøDQFðôê ˜˜±hQøDiFðòêà  ÀïP !Êø Êø Jù
+Êø  ¨ð&quot;ë˜Ùø Ñ°½èð‡ðPêÒU  ðµ‡°FHHFFxDh8hÈh `	iPø!P¨h `iiPø!P ñðëñ ñ 2Fðëhh `©jPø!Pèj``(k `0 ðê3I&quot; &amp;yDñaù
+FaùJ ñcùÏ*Aù* ñAùJ,!Bù
+Íé1   pðèé$IFyDaùÏ
+FöaaÆòcQÀø!Bù
+Íé! pjF ñ ©ðÆêø  ÀÐ˜ðÐéø ÀÐ˜ðÈé(hÀïP I `PøyDjk	h&quot;PñD¨kŒ1``èkBù
+¡a `˜9hÑ F°ð½ðºéôS  äãÿÿŽãÿÿS  -éðAˆ°FOHFxDÐø €Øø  ñT ðŠêJH&amp;FJIxDyD hh ñ`0aeñFø ð`êñ 0F*Fðbê@H%FxD h ñœae ñl1` ñT0Eø0 a`ð`é8I&quot; &amp;yDñaù
+FaùJ ñcùÏ*Aù* ñAùJ,!Bù
+Íé1   pð@é)IFyDaùÏ
+FöaaÆòcQÀø!Bù
+Íé! (Fp©ªð êø ÀÐ˜ð(éø ÀÐ˜ð&quot;éHÀïP ñDxDAù
+ h ñ° ñŒae ñ¢a ñpX0Äé ¢`˜Øø Ñ F°½èððé ¿¼R  ²R  ´R  ŒR  ”âÿÿ&gt;âÿÿÈQ  -éðA ñDFˆF0FðéÕéq¹BÐFà§B!FÐTø (øÐh9Rø,Dðléðç0Fïdðéñ AF½èðAðs¸-éðA ñ&lt;FˆF(FðÞèÖéq&gt;¹BÐFà§B!FÐTø (øÐh9Rø,DðBéðç(F÷dðÜèñ AF½èðAðI¸-éðAˆFhQøFñD(Fð²èÖéq¹BÐFà§B!FÐTø (øÐh9Rø,Dðéðç(F÷dð°èñ AF½èðAð¸ÔÔ-éðG-í‹¶°FZHšFˆFxDÐø Ùø  5ðhé  ñ€®€ïP€ñ0 @% &#39; ùÏŠñ   ùÏŠñ  ùÏŠ0F ùÅŠ`0FðTé
+¨ ñ0ùÏŠ ñ ùÏŠ ñùÏŠFùÅŠ`ðBé@HxD hh­(F ùÍŠ`0Fð&gt;éFx»—¨«QF
+&quot;ð&lt;éF0»¨AFð&gt;é˜ !2‘ñ¸hh!Íé ª
+«!°GF2˜€EÐ(±hIiàh	iˆG˜0±hQøD©ðŒèN³(F1Fð éÝéÄé ñ ñð–è&#39;uø ÀÐ˜ðÞï
+¨ðé¨ðéðÞè Ô5˜Ùø Ñ6°½ì‹½èð‡  ÀïP !Äø Dù
+ `ÚçHxDðüè]çð éãçðÆï ¿RP  JÝÿÿèO  €µÀïP OðFOð CùŒ
+1Ãø àFÀøàðìè€½ÔÔ-éðC‡°FHÀïP ,FxD #ñ	Ðø €Øø   Dù€
+i+a#`0±‚BÐh‰hˆGà“àiF‘hÒhGoF(F1FJF;FðÄè˜‡BÐ(±hIiàh	iˆG˜Øø Ñ°½èðƒðhï¨N  µ‚°ÀïP OðF”FDùŽ
+ &quot; “a&quot;`ñFcFð¢è°½ÔÔ-éðC‡°FHÀïP ,FxD #ñ	Ðø €Øø   Dù€
+i+a#`0±‚BÐh‰hˆGà“àiF‘hÒhGoF(F1FJF;Fðxè˜‡BÐ(±hIiàh	iˆG˜Øø Ñ°½èðƒðïðM  -éðC‡°FHÀïP ,FxD #ñ	Ðø €Øø   Dù€
+i+a#`0±‚BÐh‰hˆGà“àiF‘hÒhGoF(F1FJF;Fð&lt;è˜‡BÐ(±hIiàh	iˆG˜Øø Ñ°½èðƒðÈîhM  €µÀïP OðF &quot;CùŒ
+`añFðè€½-éðO¯…°€FVHñ	FxDF h hHFðè˜ðè˜0±hQøD©ðï( ×éºðzîF•u±‡ê  !±ë?ÑðFï(hPø©(Dð ï0F!FZFSFÍø ðøï˜0±hQøD©ðöîñD	HFðzî‡ê  –°ë?Ñð ï0hPø©0DðÚîÕéˆBÒ™`èl0èd  àñH ©ðÐï˜0±hQøD©ðÈîíhOð 
+ºë?–Ñðöî0hPø0D®1Fð®î(h1F &quot; #Dh(F GÀïP !BF°ú€ðÈø @	Bù
+™Âø  ˆø 1±hPøD©ð˜îHFð4î˜™	hÑ°½èððîºL  €µÀïP OðF &quot;CùŒ
+`añFð€ï€½-éðC‡°FHÀïP ,FxD #ñ	Ðø €Øø   Dù€
+i+a#`0±‚BÐh‰hˆGà“àiF‘hÒhGoF(F1FJF;FðXï˜‡BÐ(±hIiàh	iˆG˜Øø Ñ°½èðƒð¬í0K  €µÀïP OðF &quot;CùŒ
+`añFð:ï€½-éðO…°‚F[HñDFxD‰FÐø °Ûø  @Fð–íÙøL@­ àf»ÙøH „BÐTø(Fð ï8hX±hžQøDð ï1˜±úñà˜°ú€ñN	 (áÐ˜)FðïÜç  ÀïP !Êø Jù
+Êø  jà h &#39;ÙøP8±hQøD©ðï à   &quot;(h #†h(F —©°GF˜±˜©ðîîÙøLp!¹B$Ð–^FOð %F	à,FTøEø½B%FÄø °Ð,h4± h)FPø Dð í(h„BéÐðÚîæçÙøL³Fž¡BÐFà¬B)FÐUø (øÐh9Rø,Dð„íðç  ÀïP !RFÊø Bù
+`¶ú†ð@	ÉøL@Šø @Fðí˜Ûø Ñ°½èððÜì„J  -éðC‰°FkH‘FFxDÐø €Øø  h0±hQøD©ðDí0 ð¨ìaI&quot; %yDñaù
+Faù* ñcùÏJAùJ ñAù*,!Bù
+Íé1   pðˆìRIFyDaùÏ
+FöaaÆòcQÀø!Bù
+Íé! p1¨ ª« FðVîø ÀÐ˜ðnìø ÀÐ˜ðhì˜0±hQøD©ðöì0h:I `PøyDòi&amp;F	h&quot;P  FøDñD Fø05hÙø p7±8h1FPø8DðÒì5±(h1FPø(DðÒì0h…BÐðî  7`Íé Ùø  0±hQøD©ð¶ì¨©ð
+î˜0±hQøD©ð²ìÝéÄéÙø  0±hQøD©ðšì¨ðøíF Fðüí˜0±hQøD©ð’ì˜Øø Ñ F	°½èðƒð ì ¿
+I  &amp;ÙÿÿÐØÿÿRH  -éðC‰°FmH‰FxDÐø €Øø  ñH ðÎìÙø  0±hQøD©ð\ì0 ðÀëaI&quot; %yDñaù
+Faù* ñcùÏJAùJ ñAù*,!Bù
+Íé1   pð ëRIFRJyDaùÏ
+FöaazDÆòcQÀø!Cù
+hÍé! p¨ ª« Fðjíø ÀÐ˜ð„ëø ÀÐ˜ð|ë˜0±hQøD©ðì:H !&amp;FxDFøD h5h ñDaa ñh0¡d `Ùø p7±8h1FPø8Dðêë5±(h1FPø(Dðêë0h…BÐð$í  7`Íé Ùø  0±hQøD©ðÎë¨©ð&quot;í˜0±hQøD©ðÈëÝéÄéÙø  0±hQøD©ð²ë¨ðíF Fðí˜0±hQøD©ðªë˜Øø Ñ F	°½èðƒðëDG  V×ÿÿþÖÿÿäF  €F  ðµ…°F&quot;HF&amp;FxDh8hhI `yDPøêi	h&quot;PñD `aVøD”&lt;± hPø© Dðªì à  J©zDhª ð&quot;ø˜±˜©ð’ì0h0±hQøD1FðZë) Fð¾ì˜9hÑ F°ð½ðÄêpE  ~E  RE  -éðAFFFðÈê!FQø¸±*hFFi–B(¿F?h(¿F /;FôÑBÐ)iŠBÓØøªiŠBÐ % FðÀê(F½èðjh&quot;±Fh *ûÑà*FRøh«BÐhFRøhŸBøÑbhªB¿a`áh9á`)Fðnì)FQø±¨ið(ì(Fð\ê%ÏçµFHxDh FðbìñH ðfì F½RD  µFHxDh¤ñ ðRìñ4 ½è@ðí¹ ¿2D  €µIhyDRø,	hDð&gt;ìH0½è€@ðÛ¹ ¿D  µFHxDh Fð.ìñH ð2ì F½è@ðÍ¹ ¿êC  °µFH¤ñxDh(Fðìñ4 ðì(F½è°@ð·¹ ¿¾C  µ	IhyDRø,	h„ FðìñH ðì F½è@ð ¹–C  -éðA°F8HF8IxDFyDhh:hh F’ðôë (LÐ  
+!Íé ª« FðòëF (CÑðÌê GÔñ ÀïP  AFAùÀ
+  `0lhQøD©ð&gt;ê™šhCk@F˜G˜0±hQøD©ð8êð¦ê %Ô¨ðÈë®0FðÌë0F)FðÐëø ÀÐ˜ðŠé¨ð^êà$Èò ˜9hÑ F°½èðHxDð¶ê²çð¼êÖçð€éBC  BC  wÑÿÿ !ÀïP &quot;Àø@ù‚
+`pG-éðA-í‹ˆ°FHF€ïP€xDiF %Fh8h ùÀŠ`•ðë ð–ë• (¿FØø !–‘ ±hŠiiFG ÄøPù€Š%`˜9hÑ°½ì‹½èðð6éð&quot;ú0B  -éðG–°F;HF™xD˜FF/Ðø  Úø  Ñix±BÐh‰hˆG
+àiÝøx@±B7Ðh‰hˆGà  à  2à©‘hÒhG0F)FBFðHëF˜©BÐ(±hIiàh	iˆG Èò  …B+Ñ­oð(Fð8ë(FAFðëFø ÀÐ˜ðÌèà©‘hÒhG¬0F9F*FCFÍé ”ð&amp;ëF˜„BÐ(±hIiàh	iˆG˜Úø Ñ(F°½èð‡ð¸è ¿ºA  -éðAˆ°FBHFFxDh8hˆh `ÉhPø!Pph `1iPø!P0 ð‚è8I&quot; %yDñaù
+FaùJ ñcùÏ*Aù* ñAùJ,!Bù
+Íé1   pðbè)IFyDaùÏ
+FöaaÆòcQÀø!Bù
+Íé!  p©ªðBéø ÀÐ˜ðLèø ÀÐ˜ðDè0hI `yDPøri	h&quot;PñL ``Øø  !FAø0(±hRø,Dð¼èñ4 ð˜ê@ö¸1ðœê˜9hÑ F°½èðð*è¾@  ÚÐÿÿ„Ðÿÿ.@  -éðAˆ°FBHˆFxDh8hñ&lt; ðüè&gt;H&amp;FxD h ñ`0Fø0 ácððï9I&quot; %yDñaù
+FaùJ ñcùÏ*Aù* ñAùJ,!Bù
+Íé1   pðÐï*IFyDaùÏ
+FöaaÆòcQÀø!Bù
+Íé! 0Fp©ªð°èø ÀÐ˜ð¸ïø ÀÐ˜ð²ïHxD h ñpác ñL0Äé !FØø  Aø0(±hRø,Dð*èñ4 ðê@ö¸1ð
+ê˜9hÑ F°½èðð˜ïœ?  ´?  ´Ïÿÿ^Ïÿÿ?  ðµ‡°F!HxDh0hñ4 Fðòé˜±ÀïP  mF &#39;EùÀ
+ñ )FÄé w—ðè(x&#39;uÀÑàJmF(Foð€zDðÜéÝé Äé ñ ñðúï !ø !uÀÐ˜ðBï˜1hÑ°ð½ðJï ¿x&gt;  ~Ëÿÿ€µF &quot;ðÀé€½-éðO¯°FhH‹FhIxDFyD’FÐø €hØø h  ‘Íé (Fðïñ€ð´€F(”Òp ø ¨D¾¹àñ Íø°ÓFÊFÁF ð@FððîFÍé`ñ ÈFÑFÚFÝø° F)F2Fð~î  ZF USF˜ ¨©ðvéø ÀÐ˜ðØî˜`³h	hˆG`³\ ðÆî™­F(Fðˆï F)FðŒï‡ê  !Éø @±ë?ÑðŠï hIFPø DðDï˜ (AÐhQøD©ðBï9à  Éø  &gt;à˜0±hQøD©ð*ï&quot;J¨© #zDð4ï˜0±hQøD©ð&quot;ï¬ Fð&gt;ï
+˜Éø  €±hQøDIFðï
+˜8±hQøDñð
+ï¨ðFï˜0±hQøD©ðþî˜Øø Ñ°½èððlî¨ðpîÐ=  Ð=  îËÿÿ€µF&quot;ðÞè€½ðµ¯ƒ°FHFxDh0h•u±‡ê  !±ë?Ñðï(hPø©(DðÂî¨!FðÎèF˜0±hQøD©ð¼î˜1hÑ F°ð½ð*î&lt;  -éðO‘°F+H $ŠFxDÐø °Ûø  ”¨ð°èŸï³%IÀïP  ñ(ñ	HùÀ
+yDHFÈø @”ð\î­1F(Fð è8h9FJF+F†lÍø  
+¨°G(FðTîHFðPî
+˜!ˆø 8¹
+¨ðîø=@ ,¿$
+¨ð¨î˜0±hQøD©ð`î˜Ûø Ñ F°½èððÌí¦;  ¸Êÿÿ  pGµF0ðÊï F½µF0ðÂï F½è@ð]½hQøD0ðP½µhQøD ð®ï F½è@ðI½þÞÀhpG€hpG pG-éðGF&#39;H%F¦lxD¢F¡F F h ñ!` ñŒEø ñpJø ñX°0IøHøTÎ±ál±BÐFà¾B9FÐWø (øÐh9Rø,Dðòíðç l à0FædðRíñD ðè(Fðè
+HxDhPFñ ðèñHFðè@FðTï F½èð‡˜:  ,:  €µÿ÷§ÿ½è€@ðå¼8ÿ÷ ¿€µ8ÿ÷œÿ½è€@ðÚ¼8ÿ÷•¿€µ8ÿ÷‘ÿ½è€@ðÏ¼8ÿ÷Š¿€µ8ÿ÷†ÿ½è€@ðÄ¼hQøDÿ÷|¿€µhQøDÿ÷uÿ½è€@ð³¼ÔÔ-éðG-í‹”°F7H’FFxDÐø Ùø  ðòí [Ô€ïP€èF@F &amp; ùÍŠ`@Fðï-J­•#9k¨zDÍø4 F2ùÃŠ&gt;`’
+–
+hSh*F˜G˜…BÐ(±hIiàh	iˆG ˜h±Ýé Äé ñ ñðbí   u­à  ÀïP !&quot;FÄø Bù
+`­ F)Fðxï(Fðtíø ÀÐ˜ð–ì˜Ùø 	Ñ°½ì‹½èð‡HxDðÈížçð”ìf9  MÈÿÿ¤7  -éðG-í‹Ž°F3HšFFxDFÐø Ùø  ðtí NÔ€ïP€èF@F &amp; ùÍŠ`@Fð˜î)k¨&quot;
+–FùÂŠ`SF
+h–h:F°GðXí 7Ô ˜h±Ýé Äé ñ ñðòì   u­à  ÀïP !&quot;FÄø Bù
+`­ F)Fðï(Fðíø ÀÐ˜ð&amp;ì˜Ùø Ñ°½ì‹½èð‡HxDðXí«çð\íÄçð&quot;ì ¿n8  &lt;Åÿÿ-éðG-í‹”°F7H’FFxDÐø Ùø  ðí [Ô€ïP€èF@F &amp; ùÍŠ`@Fð&amp;î-J­•#9k¨zDÍø4 F2ùÃŠ&gt;`’
+–
+hÓh*F˜G˜…BÐ(±hIiàh	iˆG ˜h±Ýé Äé ñ ñðtì   u­à  ÀïP !&quot;FÄø Bù
+`­ F)FðŠî(Fð†ìø ÀÐ˜ð¨ë˜Ùø 	Ñ°½ì‹½èð‡HxDðÚìžçð¦ëŠ7  CÅÿÿÈ5  -éðG-í‹”°F7H’FFxDÐø Ùø  ðˆì [Ô€ïP€èF@F &amp; ùÍŠ`@Fðªí-J­•#9k¨zDÍø4 F2ùÃŠ&gt;`’
+–
+hi*F˜G˜…BÐ(±hIiàh	iˆG ˜h±Ýé Äé ñ ñðøë   u­à  ÀïP !&quot;FÄø Bù
+`­ F)Fðî(Fð
+ìø ÀÐ˜ð,ë˜Ùø 	Ñ°½ì‹½èð‡HxDð^ìžçð*ë’6  DÅÿÿÐ4  µF!ðîí  ÀïP !Äø Dù
+ `½-éðO°-í‹–°FAHFFxDÝé$©Ðø €Øø  ðøë hÔñ €ïP€ %XF ùÍŠ`XFðí9k¯ •:FùÀŠ`2Fhƒi8FÍé ©˜G8FðˆëðÖë KÔ˜ð±ÝéÍé¨ ññ0FðnëÝéÄé ñ 1Fðfëø  !¡‚ÀÐ˜ð¬êà  ÀïP !&quot;FÄø Bù
+`© FðvíøM `u¨ðpëø( ÀÐ˜ðê˜Øø Ñ°½ì‹°½èðHxDðÂë‘çðÆë°çðŒê ¿x5  ¤Áÿÿ-éðA-í‹Ž°F1HFxDÐø €Øø  ðnë LÔ€ïP€mF(F &#39; ùÍŠ`(Fð’ì1k¨&quot;
+—FùÂŠ`
+hÒiGðTë 7Ô ˜h±Ýé Äé ñ ñðîê   u­à  ÀïP !&quot;FÄø Bù
+`­ F)Fðí(Fð ëø ÀÐ˜ð&quot;ê˜Øø Ñ°½ì‹½èðHxDðTë­çðXëÄçðê ¿`4  ÍÁÿÿ-éðC°-í‹”°F8HFFxDÐø €Øø  ðþê [Ô€ïP€éFHF % ùÍŠ`HFð&quot;ì.J#9k¨zDF2ùÃŠ=`¯—–’
+•
+hj:F˜G˜‡BÐ(±hIiàh	iˆG ˜h±Ýé Äé ñ 	ñðpê   u­à  ÀïP !&quot;FÄø Bù
+`­ F)Fð†ì(Fð‚êø ÀÐ˜ð¤é˜Øø 
+Ñ°½ì‹°½èðƒHxDðÔêžçð¢é ¿€3  dÀÿÿÂ1  -éðA-í‹°F1HFxDÐø €Øø  ð‚ê OÔ¨€ïP€ &#39;FùÍŠ`ð¦ë&amp;k )F/aù€Š`–&gt;±0hPø©0Dðîéž ðRéIyD1Àé  !(F‘®!F2Fð4ì˜†BÐ(±hIiàh	iˆG˜0±hQøD©ðÒéø ÀÐ˜ð2é˜Øø 	Ñ°½ì‹½èðHxDðdêªçð2é ¿ˆ2  •ÀÿÿÌ0  -éðC°-í‹”°F?HFFxDÐø €Øø  ðê fÔñ	€ïP€ %HF ùÍŠ`HFð2ë9k¯ •:FùÀŠ`2Fhƒj8F˜G8Fð¢éððé KÔ˜ð±ÝéÍé hF ñ	ñ0FðˆéÝé Äé ñ 1Fð€éø  !¡‚ÀÐ˜ðÆèà  ÀïP !&quot;FÄø Bù
+`© FðëøE `u¨ðŠéø  ÀÐ
+˜ðªè˜Øø Ñ°½ì‹°½èðƒHxDðÜé“çðàé°çð¦è ¿¤1  §¾ÿÿpµFH%F&amp;FxD h ñpEø&lt; ñLFø ñ F@ø4ðjë!FQø0(±hRø,Dðé0Fð.ë(Fð‚ê Fp½Â0  pµFH%F&amp;FxD h ñpEø&lt; ñLFø ñ F@ø4ð@ë!FQø0(±hRø,DðÞè0Fðë(FðXê F½èp@ ðó¿ ¿n0  -éðC°-í‹’°F:HF‰FxDÐø €Øø  ð.é `Ô€ïP€hFF $ùÍŠ`ðRêÙø0p )F,aù€Š`—?±8hPø©8DðšèŸfù0‰­ø$  Íí ðöï&quot;IfùyD1Àé  ñAù1‰‚ !‘
+®(FIF2FðÐê˜†BÐ(±hIiàh	iˆG˜0±hQøD©ðnèø ÀÐ˜ ðÎï˜Øø 
+Ñ°½ì‹°½èðƒHxDð é™ç ðÌïà/  ô¾ÿÿ6.  °µFH%FxD h ñ ñLp0Eø8ñ0 Dø&quot;`ð’ê!FQø,(±hRø,Dð0è FðVê(F½è°@ ðB¿/  pµFH%F&amp;FxD h ñpEø8 ñFø ñL F@ø0ðhê!FQø,(±hRø,Dðè Fð,ê(Fð€é0F½èp@ ð¿ ¿¾.  pµhJzDQøEhñp ,FDø&lt;ñL .FñFø(F@ø4ð8êUø00±hQøD)F ðÖï0Fðúé F½èp@ ðç¾ ¿f.  pµhJzDQøDhñp %FEø&lt;ñL &amp;FñFø F@ø4ð
+ê!FQø0(±hRø,D ð¨ï0FðÌé(Fð&quot;é F½èp@ ð¼¾
+.  €µðøé-éðO°FˆFUø¿»ñ IÐxñ	Òé¡ð¿‰F¿OêS
+àÛø  Ø³]FƒFXFWFø/Fhð¿VVE8¿7F±DÛø  )¿FHF!F:FðÊé0±°ñÿ?ÞÝà²EÛÓà²EØÓ FIF:Fð¼é±°ñÿ?ÝàVEÒ]FUø±«FÉçÈø °àÈø PàÈø °]F(F°½èðµ
+²ú‚òOêR
+s?ÐOðà¾ë ƒøÀ±úñOêQŽøqF‚ø À.Ð‹h{Z»ÓøàÞø  šBÐ*³øO ,ãÐ àÞø ±øO ,ÛÐhˆBMÐXhhY`±‹`ÓøàÀøà™h
+FRøKœB¿
+F``˜`Ðøà8à½hˆBÐFàHh`±ƒ`ÓøàÁøà˜hFRøKœB¿F`K`™`Ñøà s !Þø ŽøhÎø	±ÁøàÞø`Þø
+FRø;sE¿
+F`Àø àÎø ½F!s !Þø  ŽøAhÎø 	±ÁøàÞø`Þø
+FRø;sE¿
+F`ÀøàÎø ½ ð¸½€µ  ðôíIyD1`€½ ¿¦)  HxD0`pG ¿–)  pGÔÔ-éðA¯‚°F&quot;HxDÐø €Øø  P h ðÒíF –v±‡ê  !±ë?Ñ ð î0hiFPø0D ðXîiF(FðÌè‡ê  !%`±ë?Ñ ðŒî(h!FPø(D ðDî ˜0±hQøDiF ðDî˜Øø Ñ°½èð ð²í ¿L+  -éðO°FˆFUø¿»ñ IÐxñ	Òé¡ð¿‰F¿OêS
+àÛø  Ø³]FƒFXFWFø/Fhð¿VVE8¿7F±DÛø  )¿FHF!F:Fðjè0±°ñÿ?ÞÝà²EÛÓà²EØÓ FIF:FðZè±°ñÿ?ÝàVEÒ]FUø±«FÉçÈø °àÈø PàÈø °]F(F°½èð€µ  ð4íIyD1`€½ ¿J(  HxD0`pG ¿:(  -éðA¯‚°F&quot;HxDÐø €Øø  D h ðíF –v±‡ê  !±ë?Ñ ðâí0hiFPø0D ðšíiF(Fðè‡ê  !%`±ë?Ñ ðÎí(h!FPø(D ð†í ˜0±hQøDiF ð†í˜Øø Ñ°½èð ðôì ¿Ð)  -éðC°€FXøO ,QÐ
+xñ	ÑépEFð¿F¿Wà  ·B8¿ ¾B8¿Oðÿ0! (X¿!FhX¿%FFÀ± Fø/Fhð¿V·B2F8¿:F *àÐ0£i )IF¿F ð¤ï (ÞÑÕçEEÐ(F:FøDhð¿L¼B8¿&quot;Fj±AHF®i +¿1F ðŠï ±°ñÿ?ÜEFà§B8¿EF(F°½èðƒ°µFIh!±F	h )ûÑà!FQø_*h¢BÐ
+hFQø_+h“BøÑh¡B¿`Ðé:‚`F!F ðdî kñ BÐ(±hIiàh	iˆG |ÀÐ i ðJì F ðFì(F°½ðµÑø À
+F¼ñ ÐKhk±Fh +ûÑÒøÀ¼ñ ÑOð Oð à
+F“hOðÌø0“hh”BÐÃøÀ“hà‚BÃø À ð“€“h3h{ŠBÐh•`Žh/6hŽB¿/F:`h`ª`MhU` -¿ª`{ˆBs¿F ,¿ ( Ñð½¾ñ Ð Œø ð½ !Oðšh{hŸBÐ$±Fà\³FDàƒøÀsšhTh%hU` -¿ª`—h§`–h7FWø[•B¿7F&lt;`&quot;`”`h¸Bzh¿Fh±{ /CÐTh±&#39;{ /@Ð“hsƒB(Ñ5àƒøÀsšhheh` -¿ª`—h§`–h7FWø[•B¿7F&lt;`b`”`_h¸B:h¿Fh±{ /PÐTh±&#39;{³“hsƒBÐ{b±Ÿh:FRøkžB¿:Fh—ç #`FlçF sð½Th± { (MÐ  !shsAh` )¿Š`‘h`‘hFSø{—B¿F`B``7à±{¸±Th  ! sPhshQ` )¿Š`‘h`‘hFSø{—B¿F``` àFh
+{s&quot;
+sh
+s€hhJh` *¿`‚hŠ`‚hFSø{‡B¿F`H``ð½Fh
+{s&quot;
+sAh
+s€hAh
+hB` *¿`‚hŠ`‚hFSø{‡B¿F```ð½-éðC°€FXøO ,QÐ
+xñ	ÑépEFð¿F¿Wà  ·B8¿ ¾B8¿Oðÿ0! (X¿!FhX¿%FFÀ± Fø/Fhð¿V·B2F8¿:F *àÐ0£i )IF¿F ðÖí (ÞÑÕçEEÐ(F:FøDhð¿L¼B8¿&quot;Fj±AHF®i +¿1F ð¼í ±°ñÿ?ÜEFà§B8¿EF(F°½èðƒ°µFIh!±F	h )ûÑà!FQø_*h¢BÐ
+hFQø_+h“BøÑh¡B¿`Ðé:‚`F!F ð”ì kñ BÐ(±hIiàh	iˆG |ÀÐ i ðzê F ðxê(F°½-éðC°F {F‰F (¿ h¿ (ÐPø ñ9± ñè ðÎê?úÑ@F ðÐê&amp;ðp@¦`1¿!5ñ  )¿Oðÿ0 ðÊê! ñÀé î±/F@F ðXí? ñ ùÑ Äø € s¦±@FIF ðRí.Ð&amp; h	ë0D ðJí6µBöÑà Äø € s F°½èðƒ-éðAFF hah!ë¦±ñ€ORÒ¢hoð@GOð B±ë`ˆ¿
+F€oð`AˆB8¿F7±·ñ€O@Ò¸  ððé à  ³.h ëƒÅø € ë‡Ôé F@økB
+Ð &amp;Wø]Cø]¹B&gt;`øÑÔé Q àF©BÄé 0¢`ÐFà¥B!FÐTø (øÐh9Rø,D ð^êðç%±(F½èðA ðw¹½èð F ðâì ð°ìµF  ð¬éIbhyD1Àé ½Z!  JzD2
+`@hH`pG ¿J!  °µFF ð¤ê Ôhh i@±hŠi!F½è°@G ðÖêóçÿ÷‰úÔÔµJFFQøzD2&quot;`(±hRø,D ðê F½$!  µ
+JFFQøzD2&quot;`(±hRø,D ðþé F½è@ ð¹ ¿ü   °µF  ðRé	IFhhyD1!`!FAø(±hRø,D ðÚé F°½ ¿È   JzD2
+`@hAø(±hRø,D ðô¸pG ¿¢   FQø(±hRø,D ðì¸pGµFFQø(±hRø,D ð´é F½è@ ðÎ¸°µˆ°IyDh)h‘AhhBj¬ FG F ðÞé ðê Ô˜)hÑ°°½ ðBêöç ðé ¿ª!  µJFFQøzD2&quot;`(±hRø,D ð|é F½   µ
+JFFQøzD2&quot;`(±hRø,D ðhé F½è@ ðƒ¸ ¿ô  °µF  ð¼èIF`hyD1)`)FAø(±hRø,D ðDéÔí Š(‚(FÅí°½ ¿À  °µF
+HFxD0`hhAø(±hRø,D ð(éÕí(Š ‚Äí°½ˆ  °µˆ°IyDh)h‘Ah
+hSk¬ ñ F˜G F ðTé ð‚é Ô˜)hÑ°°½ ð¸éöç ð~è ¿š   Ë ê0 á á  áË ê  á °ãÈ ê@òhÀò üD`G@òœ,Àò üD`G@òÀLÀò üD`G@ò„Àò üD`G@ò˜Àò üD`G@òœÀò üD`G            à-å æâêŽâð¾åÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔ ÆâÊŒâüÿ¼åÔÔÔÔ ÆâÊŒâðÿ¼åÔÔÔÔ ÆâÊŒâäÿ¼åÔÔÔÔ ÆâÊŒâØÿ¼åÔÔÔÔ ÆâÊŒâÌÿ¼åÔÔÔÔ ÆâÊŒâÀÿ¼åÔÔÔÔ ÆâÊŒâ´ÿ¼åÔÔÔÔ ÆâÊŒâ¨ÿ¼åÔÔÔÔ ÆâÊŒâœÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâ„ÿ¼åÔÔÔÔ ÆâÊŒâxÿ¼åÔÔÔÔ ÆâÊŒâlÿ¼åÔÔÔÔ ÆâÊŒâ`ÿ¼åÔÔÔÔ ÆâÊŒâTÿ¼åÔÔÔÔ ÆâÊŒâHÿ¼åÔÔÔÔ ÆâÊŒâ&lt;ÿ¼åÔÔÔÔ ÆâÊŒâ0ÿ¼åÔÔÔÔ ÆâÊŒâ$ÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâ ÿ¼åÔÔÔÔ ÆâÊŒâôþ¼åÔÔÔÔ ÆâÊŒâèþ¼åÔÔÔÔ ÆâÊŒâÜþ¼åÔÔÔÔ ÆâÊŒâÐþ¼åÔÔÔÔ ÆâÊŒâÄþ¼åÔÔÔÔ ÆâÊŒâ¸þ¼åÔÔÔÔ ÆâÊŒâ¬þ¼åÔÔÔÔ ÆâÊŒâ þ¼åÔÔÔÔ ÆâÊŒâ”þ¼åÔÔÔÔ ÆâÊŒâˆþ¼åÔÔÔÔ ÆâÊŒâ|þ¼åÔÔÔÔ ÆâÊŒâpþ¼åÔÔÔÔ ÆâÊŒâdþ¼åÔÔÔÔ ÆâÊŒâXþ¼åÔÔÔÔ ÆâÊŒâLþ¼åÔÔÔÔ ÆâÊŒâ@þ¼åÔÔÔÔ ÆâÊŒâ4þ¼åÔÔÔÔ ÆâÊŒâ(þ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâøý¼åÔÔÔÔ ÆâÊŒâìý¼åÔÔÔÔ ÆâÊŒâàý¼åÔÔÔÔ ÆâÊŒâÔý¼åÔÔÔÔ ÆâÊŒâÈý¼åÔÔÔÔ ÆâÊŒâ¼ý¼åÔÔÔÔ ÆâÊŒâ°ý¼åÔÔÔÔ ÆâÊŒâ¤ý¼åÔÔÔÔ ÆâÊŒâ˜ý¼åÔÔÔÔ ÆâÊŒâŒý¼åÔÔÔÔ ÆâÊŒâ€ý¼åÔÔÔÔ ÆâÊŒâtý¼åÔÔÔÔ ÆâÊŒâhý¼åÔÔÔÔ ÆâÊŒâ\ý¼åÔÔÔÔ ÆâÊŒâPý¼åÔÔÔÔ ÆâÊŒâDý¼åÔÔÔÔ ÆâÊŒâ8ý¼åÔÔÔÔ ÆâÊŒâ,ý¼åÔÔÔÔ ÆâÊŒâ ý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâüü¼åÔÔÔÔ ÆâÊŒâðü¼åÔÔÔÔ ÆâÊŒâäü¼åÔÔÔÔ ÆâÊŒâØü¼åÔÔÔÔ ÆâÊŒâÌü¼åÔÔÔÔ ÆâÊŒâÀü¼åÔÔÔÔ ÆâÊŒâ´ü¼åÔÔÔÔ ÆâÊŒâ¨ü¼åÔÔÔÔ ÆâÊŒâœü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâ„ü¼åÔÔÔÔ ÆâÊŒâxü¼åÔÔÔÔ ÆâÊŒâlü¼åÔÔÔÔ ÆâÊŒâ`ü¼åÔÔÔÔ ÆâÊŒâTü¼åÔÔÔÔ ÆâÊŒâHü¼åÔÔÔÔ ÆâÊŒâ&lt;ü¼åÔÔÔÔ ÆâÊŒâ0ü¼åÔÔÔÔ ÆâÊŒâ$ü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâ ü¼åÔÔÔÔ ÆâÊŒâôû¼åÔÔÔÔ ÆâÊŒâèû¼åÔÔÔÔ ÆâÊŒâÜû¼åÔÔÔÔ ÆâÊŒâÐû¼åÔÔÔÔ ÆâÊŒâÄû¼åÔÔÔÔ ÆâÊŒâ¸û¼åÔÔÔÔ ÆâÊŒâ¬û¼åÔÔÔÔ ÆâÊŒâ û¼åÔÔÔÔ ÆâÊŒâ”û¼åÔÔÔÔ ÆâÊŒâˆû¼åÔÔÔÔ ÆâÊŒâ|û¼åÔÔÔÔ ÆâÊŒâpû¼åÔÔÔÔ ÆâÊŒâdû¼åÔÔÔÔ ÆâÊŒâXû¼åÔÔÔÔ ÆâÊŒâLû¼åÔÔÔÔ ÆâÊŒâ@û¼åÔÔÔÔ ÆâÊŒâ4û¼åÔÔÔÔ ÆâÊŒâ(û¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâøú¼åÔÔÔÔPÑ  T           ¹Ÿ                                          ½Ÿ  i       ±Ÿ      P   üÿÿÿ    w   }   µŸ  L   øÿÿÿ       “               èÿÿÿ    £   ©       ´ÿÿÿ¬ÿÿÿ´ÿÿÿ¬ÿÿÿ¬ÿÿÿ    ¹   Å                               \   `      4      &lt;   œ   T   l   °   X   p   H                                                           ìÿÿÿ                            ¸ÿÿÿ¸ÿÿÿ                                        T   X   X   h   &lt;           aŸ  Ý   Õ¡  ¹¢  ±£  ©¤  É¤  å¥  Á¦  ½§  ¨  ±©  ª  aª  üÿÿÿ    e«  µ«                  ÄÿÿÿÄÿÿÿ    ¬  m¬                             aŸ                                          ¯Ÿ  ¯Ÿ                      üÿÿÿüÿÿÿ    ¯Ÿ  ¯Ÿ                        \   `              aŸ                                          eŸ  sŸ                  üÿÿÿüÿÿÿ    ‡Ÿ  •Ÿ                  T           aŸ                                          ¯Ÿ  ¯Ÿ      ±Ÿ  P   üÿÿÿ    ¯Ÿ  ¯Ÿ  µŸ  L   øÿÿÿ    ¯Ÿ  ¯Ÿ                  ´ÿÿÿ´ÿÿÿ´ÿÿÿ¬ÿÿÿ¬ÿÿÿ    ¯Ÿ  ¯Ÿ                  T           aŸ                                          ¯Ÿ  ¯Ÿ                      ¬ÿÿÿ¬ÿÿÿ    ¯Ÿ  ¯Ÿ                  T           aŸ                                          eŸ  sŸ                  ¬ÿÿÿ¬ÿÿÿ    ‡Ÿ  •Ÿ                  P                                       °ÿÿÿ°ÿÿÿ                            L                                   ´ÿÿÿ´ÿÿÿ´ÿÿÿ´ÿÿÿ´ÿÿÿ                            H                                                                           ¸ÿÿÿ¸ÿÿÿ                            H                                                                           ¸ÿÿÿ¸ÿÿÿ                            H                                                                       ¸ÿÿÿ¸ÿÿÿ                            &lt;           aŸ                                          ¯Ÿ  ¯Ÿ                      ÄÿÿÿÄÿÿÿ    ¯Ÿ  ¯Ÿ                          ù®  Í®  Ñ®  é®  ù®  Í®  ý®          ù®  Í®  Q°  i°  ù®  Í®  y°          ù®  Í®  a·  }·  ù®  Í®  ‘·          ½·  å·  ¸  I¸  m¸  ƒ¸  ¥¸          é¸  ¹  A¹  ¹  m¸  ƒ¸  µ¹  ßz  Ñz  5~  åz     –H     ¥H     ¯H     »H     ÈH     ‰H     ÒH     ÚH     ãH        ûÿÿo     `´\    `;         àÿoð_  àÿo@   àÿo      ˜c     `     ˆÚ           ¬              
+   I  õþÿoŒ     DÙ           8Ù        ðÿÿo¬  þÿÿol  ÿÿÿo                                                                       pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  pº  –i  AA   aeabi 7   C2.09 A	
+  &quot;$&amp;*D .init_array .fini_array .ARM.exidx .text .got .note.android.ident .got.plt .rel.plt .ARM.attributes .dynstr .gnu.version_r .data.rel.ro .relr.dyn .rel.dyn .gnu.version .dynsym .gnu.hash .note.gnu.build-id .dynamic .ARM.extab .shstrtab .rodata .gnu_debugdata .data ý7zXZ  æÖ´F !   t/å£àeH] ?‘E„h;ÞÞ¦Â”Ô$Í ]-ÈÄr&gt;eºMûGÏEÌñÈ÷¾Ó¨7	Ý¼„t†&#39;#u…0+•[¼N¸–ÊÎôCŠƒ¬nÜ¥î»]½¸–÷&gt;­aÿ{ù‹©¯-×`–Wà’’dý«Š_¡Ž}©”ñ°hÁ…éXí-c¢ÿ^yKë,¨XqÈˆýF™î‡ÀÔmÄÌhËÖ£0/Øž1?Û¸’Ï°ÝµòELÑDTŸfâi6Î&quot;8„ç–Ã÷dŠ¾Ê@„o±;p…Öjv&amp;Nü½p6žC½³}ß±ÊhVÐT¢Ò¡ {µê±h•·-îX;ˆÙ^×ñ”žfC1Þ¿uÎ,œXœ«#HRåF-ò£¢áXJ®ö:Õ+ŽÑÆk(0²VŒ’PNó¤/¨ÜsK­™àªÃ¾Ÿ˜È•LX1›Z~³SE&#39;¬ÂE 2GLÚ°Š	Œ yÒÔûq=¶€†îw‘à†Ò„Çœ…Ï#É2§ g ì‘J6Êµì²d¶exö`À–½s€ÆPqÓÞ&amp;jûÌ§ë-|ð8!ÒB…!#ˆf„¯»&lt;JÕ-€/™w¨yQAÀpÝ²¹tX]oYæ0!&quot;7°ÈÔÎJ‰™à9úÐª¢	?j©Â¬š&amp;?ÂùC=¢šÐo:§M85yµ&lt;”$%ê³¸ØŒ•¢/¹‰} PÚçEÊ#ñ¨‰¬5õŒ°ghVœvùíô#}Ðc¢®`BúUÒÛáù0}}–¤â…©ó9÷ÖÄÆ³}ã†FÖ—B ïÅ/»&amp;¬œ•°O©èŸÓkódõfÙãYÅJ½Ü&#39;ò!&gt;°&#39;÷~Í…=Gì˜õx3ÿ4yËåxm¡A(Ð·§&#39;îf^[É$#å™`R‡&gt;Í/Ä’›#vù&gt;–²xÇTJW]ýç9ƒU@ä¶Ë	ÚLÕÅ{•xR ©ßÎAØ©÷àã¢˜÷3(1i¯=m÷&amp;j3ÕQ1g))ßKžÿÓ7Ê=ÄÛWÜç;—!°‹kÆqKÒ}ça½M·úÿÅB‡”[ dŸ—ÊüH29ø/;€¸}=é˜¶›Ã_hËI5fƒ¸ó‡ò)ã£
+±‡Ä®¾&#39;õŽ9µaTÄpìÆ¼W¥Ì$Æ~OºÏ¡_«T#WWƒñHº­FÛ‡çZ1([zKm£}¾Äa–µir¦æahkqN–Î2J­AØ7;~5¯Èòi¬—¼´žmÿ¦d~ãå`’{ˆ°JóÒhñêvë¨§ÀQ G?6Ì&gt;Ò •—ÿ5æ«ÜtO9!óO0/_`\ô˜ò¤A¹,˜¢×!Åõ´úù)\S»:Ë±â^wf‚wfk›Ï±ë’®*½É‡º*èwñ)ÿÚs¤ÛN½KY¼*ç#6)$¹pj’)WÃ{Ô~Qœ¾¥Ã(3@´	¨4Äˆô.ÍÃŒôzÕQÛ‹Ì»S¾Ìë±oÝi±Ö.]X¾Akšâ!Eº)I^ýýI·‡P«Øn½†.¨ãt&gt;üÒõ&lt;¿˜IchyL:¬öÈ‚Ã†…û]wkòx©¤ëÝj‘å)˜$|rÿ6’¾nŽ
+–@É&#39;ÃÑònöÑ|F¶L¨¦0]¨·M™äÝ´ˆÍûÏîÆÄ’t1rÓÍ&lt;©
+Ì4e’ø]»´û}¶p[hTW§óçî È\0Øpk‡&amp;/wÚûj%¯£ØÃìà·CïÀØE7WâáÐvýkÑ&gt;í\—l×Î½aÈ¨6„„è²˜hlï¹c·o÷le:&#39;}Xß~©!¼‡EmÉæ!õÔý
+Èƒx+NÑ&#39;¼‹ž¾$²»€%¶¦ãíM–F‚Lþ$çv¼2Ô	Ä%¢É›Lh%—ÛqÆH2&amp;1É¢|…š$¶ßdÐ[¥FŠ™ªÚïº“w¹ÈvbÅãû(2Ø’„Æµ³¿ý“Hâ…~9‡Ô(Àv:°„xu¿ëã&gt;ÐCMÒ·Qc)xJ`ä¿¼÷Ñ²JJÅ‚aþè(bà, ÷Ð[ ª1dZŽc; ­ã{Þ:‡ýgö*M¡WÊÛ†¼K:µý+„Á¥$ƒXOjÜ‘Ý‹Á!¬ºÓ¹úfö4ý˜b ÌC0),bÂ|11ªÍ8=o¡64´¼…_Næu[HèOk=&lt;’Êk·Åþñ#cÝ9¨®‘Ê™*Ê‹0”úVÃ q9kgúEC1¬`|Ñy4˜ó„°F¾$À#Â,õG2âö8&gt;_4M/Ùäãã½ÉBü2m4Øt©Õ?T`…iCNDxaÛæ}˜Bo	!Õsµ1q€¶`Yá¼³C·Ö6û_µÒs7IéúBàL¥ò}ˆa-ÄÁVË±uXÜÈ%vßÆÕÉ–£¾·i€¬÷j˜Õ¡3¦r“$íã²«×›à}áÊM»‡Ü¼¤˜Q„cçÕ¦³‡¹„Ð’=Üä‰²Ó¸bÁ®(ò6ãQ&gt;ìÎ¦.©Ð­1´,Éþ$YòÛ™~QÌª&quot;®Ìß‚vdÉËÓùm-J›ò›á= [Ýh¹þ3#&amp;q2¼“ºŒ®9÷‰Ì J•Š[\b•Ð»Gö½Ó¼M”‡¼ïad†÷¯ßa™ŠÁ»M¡}tc&amp;vÏÊ…Ø˜‹	2ÿ¥Vê{Ÿe*a)qIð×&quot;c{€2vXVÜú·ý4h‰1Ypïô+w²ó-\&quot;¦ßª¦–U» 8ŠE58Ö`ƒú/ú&gt;¯ŠÈ}Hq™gc ›GÅ‡·Þ 3ª#Ù5•Vô%˜FqyÏ•È}Êò”Ít+\ÿS½OxÁZèùÆkqAØßÜÓ±Vç+£’Òáã+~G®ro˜B^RZ=üåÇŠNð§ë§L&lt;{o:}£õÆ|uÈÑ/þ/Mì¹¨&gt;­ú…ÎÊhŒïïFo˜ˆÜœK•ÀƒôØÍÝýã8ˆz&amp;}ÎÒõ|¸Î_e0£,‹Ô²€vˆßI–;,\öP#Ùï!”³K›ãù€‘õ¿Ô¼\LÙiÿ»À°o¶¥a07ïqí&lt;Ù4+úa„SÚ ßAÐª}e*ª^§ùÖãÊÏ1šF¢¯½‘@ô¼Å›ƒÍ¸çNGäðNWÙü&quot;,òÙºvcŒ¹ª_–GhÀtd&#39;«gˆœ$š~RÁ¯ÕÉdñ‘Õ)ßxìÂR”ô5“üh›À¶ähÙ³ÉCå–KF!ò DGfà7KÊ)#DkÓã¿àpÜuÇÂ}K¿’B– þEyKöÏJØÇ
+ì‚€¨¼¨ ^º¨íNª“&lt;æÿTvIµJ&quot;tb‘˜!“¥CÆäü8.¶&amp;»¾,y”(QÌK¤ßNük06âŒÀæÛ*Ø×=[Â¨¹Vé™7ÑtÆ0¹6cÒlaZPßŒ,&quot;ÖÎôkÜš­:j™K| Ä++Ò‚ÚÉ¾°äZi=¸¥	Ìõ¯&gt;’¢~[øhTÝœç]BŸÐÅ°÷RÊv+)ÄÿÁHæR° éšuPÍ‡&gt;Ê5ñÄÞG~¼ÎÐåöµjß&quot;‚‹Æ½ ‹þÝks2Þ·wZ´ªþù ˆt´/ìÌ¸é^éÑ+zàFçÍ? OqŽ;Ú™ñ²#ªÜHà%PÌegx„5íc-Pál_òå˜…†’ò}^ü&#39;LôSøþ*Âä6õœ³i“œäÞPÚ©€8rõž°FÑaºgAÖ9z[íàôú‚ôt0^l¦Hle•¶¹&gt;NM”I“$…ŠãCWfX
+´ITž”6ML:‹öpÍôô/uYQ*•9¡±Ùý®¢ø}±^-µ÷5ä“Ý~ç^1;RR&lt;‰}Âxå¤ÚÄh*e¹z8È—ÕÇÚÏ«½!ëó¹ ±‡0Û Ì×¦)ºPƒšpBG!Å ìp$ˆ(Ç&#39;Ü¾Uóµ&#39;ZÐ›ØŸ&amp;l8¥¯Z)Ú—0v\¡å†»Áy6b.ÔÇ°?ÀlôŠ~zûm³ÆàL)^{œ 09‰“$m&gt;[&gt;ñ¸’È¹6#ƒ Úµ,ÂÜ5§E‰o7¼rÔŒ†~§KW¹D­ms^ø¯›¨6
+ž$0NÓ£°žM‰¹Ã‘µwà42FpªÝHø+T.5WšuS:InF±õ9[HŠ#ÃÕêj²µ©˜Ñœ‹[»5)&amp;¥1ò/¢óš›’fõ^³nˆ’9hž·[ºõ¸æI?WÏwZTŽ“$NÉÝ&amp;XÜûÊÀÜƒúçPÒ×:op+&gt;à¬h
+Õ~#§®eØgXé;èÅ‚1o£ÖàÑ;–®Y6.Ÿ•ÛxŸ½ÅB¨ù‰çv;&amp;DÏ¹ÕâÖ­ç]è¸CÍ8&gt;+­¤r®øó2ð$jÜ­òÎ4¾Õ=*ÐrNÔ+E(ñ0œ•AGL`Âùœ£yRæ/üÀÝÿ—Æ-y¢¡PÄ`×j1wa&amp;æÂÍìø…@
+|•Å9UOZVôÑ|I	ÒS±¶3ÝÛ@g¿;l=÷s´Ý‡¼?Vý*‹Nc,ÎåÕÑ™`ÚþòÇqá&quot;QA(ÃÈtŠxv\O[´ß7%&gt;’°·œ¥	Ä&gt;Oû7”ê
+Ï»óŠƒÞ%e••3G¨ìú:~a‡Tªç}w)ƒè†0Òµ#©&amp;ÈüçâÔ_ZƒXã£­ä©iAÒÄôÏjSðEé§Ù¢Ó;&gt;yü&amp;žsy	tüƒz~~ä[Ïu¾U{m±Úþ˜Q ú¸ï3Öÿ7q b{Ï&amp;%ÁŒçÔ&quot;Y~“&lt;È ïëó&gt;Q&#39;iü.—HÒR@ÜÓ­wåƒU³¢@º8p¹S&lt;7x3=$—ë;*\MÐ\ÕgÆð–Û‰‹B3¶(œçŒ ‰v£¼‘Í8 ä˜Ê VG±Ägû    YZ                                         /         t  t                    »         Œ  Œ                     ©         ¬  ¬                 œ   ÿÿÿo   ¬  ¬  À               m   þÿÿo   l  l                   ±   öÿÿo   Œ  Œ                  e               I                 “     `   ´\  ´\  ;               ‰    ÿÿo   ð_  ð_  @                      p‚   0`  0`  h                L   	      ˜c  ˜c  `              ×         øf  øf  x                  ì      2   pg  pg  ]                $         Ðz  Ðj  ”?                 P         pº  pª  à                 |         PÑ  P±  è                          8Ù  8¹                             DÙ  D¹                    Î         HÙ  H¹                 *         XÚ  Xº  0                  C         ˆÚ  ˆº  ¼                         Dì  D¼                    U     p        H¼  B                  â              Š¼  	                 ô              “½  ˆ                 " data-is-ci-config-file="false" id="js-blob-toggle-graph-preview"></div>
+<div class="blob-viewer" data-path="vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" data-type="simple">
+<div class="file-content blob_file blob-no-preview">
+<div class="center render-error">
+<a href="/dumps/google/sunfish/-/raw/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so"><h1 class="light">
+<svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg>
+</h1>
+<h4>
+Download (52 KB)
+</h4>
+</a></div>
+</div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace vendor.qti.hardware.bt_channel_avoidance@1.0.so</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden>&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/dumps/google/sunfish/-/update/sunfish-user-11-RP1A.200720.011-6746289-release-keys/vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="2JZGBpXMpXxRvx3ebWp1lh6bPKj79wZdzRiUhTVnEyxFoQDF8nvu0Oplp53A2oIQI5tdb0sCN8OgMC7NRillIQ==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts gl-alert gl-alert-danger gl-mb-5 data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-30f43823e789e6188ab65a667b10d730">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-30f43823e789e6188ab65a667b10d730" class="form-control js-commit-message" placeholder="Replace vendor.qti.hardware.bt_channel_avoidance@1.0.so" required="required" rows="3">
+Replace vendor.qti.hardware.bt_channel_avoidance@1.0.so</textarea>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="branch_name" id="branch_name" />
+<input type="hidden" name="create_merge_request" id="create_merge_request" value="1" />
+<input type="hidden" name="original_branch" id="original_branch" value="sunfish-user-11-RP1A.200720.011-6746289-release-keys" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn gl-button btn-success btn-upload-file" id="submit-all"><div class="spinner spinner-sm gl-mr-2 js-loading-icon hidden"></div>
+Replace file
+</button><a class="btn gl-button btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+<div class="inline gl-ml-3">
+A new branch will be created in your fork and a new merge request will be started.
+</div>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded', 'qa-js-lazy-loaded');
+  });
+}
+
+//]]>
+</script>
+
+</body>
+</html>
+
