@@ -165,6 +165,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/daisy/proprietary/product/lib/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdsinksm.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdsinksm.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdcommonutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdcommonutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdconfigutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdconfigutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfddisplayconfig.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfddisplayconfig.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfddisplayconfig.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfddisplayconfig.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmminterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmminterface.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.0.so \
