@@ -175,6 +175,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmminterface.so \
     vendor/xiaomi/daisy/proprietary/product/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdrtsp.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfdrtsp.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdrtsp.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsrcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsinkinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsinkinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsrc.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrc.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.0.so \
