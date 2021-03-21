@@ -185,6 +185,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsinkinterface.so \
     vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsrc.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrc.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmmrtpdecoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmrtpdecoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmmrtpencoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmmsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmmsink.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.0.so \
