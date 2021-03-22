@@ -18,6 +18,103 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/daisy
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/daisy/proprietary/product/bin/rtspclient:$(TARGET_COPY_OUT_PRODUCT)/bin/rtspclient \
+    vendor/xiaomi/daisy/proprietary/product/bin/rtspserver:$(TARGET_COPY_OUT_PRODUCT)/bin/rtspserver \
+    vendor/xiaomi/daisy/proprietary/product/bin/sigma_miracasthalservice:$(TARGET_COPY_OUT_PRODUCT)/bin/sigma_miracasthalservice \
+    vendor/xiaomi/daisy/proprietary/product/bin/wfdservice:$(TARGET_COPY_OUT_PRODUCT)/bin/wfdservice \
+    vendor/xiaomi/daisy/proprietary/product/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
+    vendor/xiaomi/daisy/proprietary/product/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/wfdservice.rc \
+    vendor/xiaomi/daisy/proprietary/product/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/xiaomi/daisy/proprietary/product/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_PRODUCT)/etc/seccomp_policy/wfdservice.policy \
+    vendor/xiaomi/daisy/proprietary/product/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/daisy/proprietary/product/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmiracastsystem.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmmrtpdecoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmmrtpencoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdavenhancements.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdclient.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdclient.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdcommonutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdconfigutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfddisplayconfig.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfddisplayconfig.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmminterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmmsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdmmsrc_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmmsrc_system.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdnative.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdnative.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdrtsp.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdservice.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdservice.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdsinksm.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsinkinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsrc.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfduibcsrcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.sigma_miracast@1.0.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libmiracastsystem.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmiracastsystem.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmrtpdecoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdclient.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdclient.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdcommonutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdconfigutils.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfddisplayconfig.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfddisplayconfig.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmminterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmmsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdnative.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdnative.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdrtsp.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdrtsp.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdsinksm.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsinkinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrc.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrcinterface.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
+    vendor/xiaomi/daisy/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
+    vendor/xiaomi/daisy/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiracast.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdcodecv4l2_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcodecv4l2_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdconfigutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdconfigutils_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfddisplayconfig_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfddisplayconfig_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdhdcpservice_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpservice_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmminterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmminterface_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmmservice_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmmsrc_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsrc_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdrtsp_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdrtsp_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdsessionmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdsessionmodule.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdsourcesession_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdsourcesession_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdsourcesm_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdsourcesm_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfduibcinterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcinterface_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfduibcsink_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsink_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfduibcsinkinterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfduibcsrc_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrc_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfduibcsrcinterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrcinterface_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdutils_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sigma_miracast@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libwfddisplayconfig_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfddisplayconfig_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/daisy/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/xiaomi/daisy/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/xiaomi/daisy/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
@@ -251,7 +348,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/daisy/proprietary/vendor/bin/vendor.qti.hardware.soter@1.0-provision:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.hardware.soter@1.0-provision \
     vendor/xiaomi/daisy/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service \
-    vendor/xiaomi/daisy/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/xiaomi/daisy/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/xiaomi/daisy/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/xiaomi/daisy/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
@@ -350,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
@@ -465,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
@@ -2274,11 +2368,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/mibokeh_625_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_625_opencl.bin \

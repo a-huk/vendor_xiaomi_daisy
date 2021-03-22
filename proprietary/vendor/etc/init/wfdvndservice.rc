@@ -3,9 +3,8 @@
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
-service wifidisplayhalservice /vendor/bin/wifidisplayhalservice
+
+service wfdvndservice /vendor/bin/wfdvndservice
   class main
   user system
-  group inet input audio media uhid
-  capabilities NET_RAW
-
+  group inet
