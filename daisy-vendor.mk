@@ -191,6 +191,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmrtpencoder.so \
     vendor/xiaomi/daisy/proprietary/product/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdmmsink.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmmsink.so \
+    vendor/xiaomi/daisy/proprietary/product/lib/libwfdnative.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdnative.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/libwfdnative.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdnative.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.0.so \
